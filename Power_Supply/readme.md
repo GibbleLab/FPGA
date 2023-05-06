@@ -1,0 +1,1 @@
+This is the design for a separate power supply board that uses a single 15 V input to generate the various voltages needed by the baseboard. The source files are available in the CircuitMaker Repository: https://bit.ly/3VuMqpN.
