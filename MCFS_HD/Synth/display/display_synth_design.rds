@@ -1,0 +1,512 @@
+Command: synth_design -mode out_of_context -flatten_hierarchy rebuilt -top display -part xc7k160tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1152.582 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'display' [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/display.v:15]
+	Parameter black bound to: 24'b000000000000000000000000 
+	Parameter white bound to: 24'b111111111111111111111111 
+	Parameter red bound to: 24'b111111110000000000000000 
+	Parameter green bound to: 24'b000000001111111100000000 
+	Parameter blue bound to: 24'b000000000000000011111111 
+	Parameter yellow bound to: 24'b111111111111111100000000 
+	Parameter purple bound to: 24'b100000000000000010000000 
+	Parameter redpurple bound to: 24'b011000110000000101000001 
+	Parameter bluepurple bound to: 24'b010100110000000010000000 
+	Parameter orange bound to: 24'b111111111000110000000000 
+	Parameter navy bound to: 24'b000000000000000000100111 
+	Parameter darkred bound to: 24'b101011110000000000000000 
+	Parameter darkerred bound to: 24'b011000110000000000000000 
+	Parameter darkgreen bound to: 24'b000000001000101100000000 
+	Parameter darkergreen bound to: 24'b001010110011100000001000 
+	Parameter lightgreen bound to: 24'b011000101101001010100010 
+	Parameter greenlbo bound to: 24'b101011110000000000000000 
+	Parameter green542 bound to: 24'b000000001000101100000000 
+	Parameter green820 bound to: 24'b111111111000110000000000 
+	Parameter green1083 bound to: 24'b011000110000000101000001 
+	Parameter green326 bound to: 24'b100000000000000010000000 
+	Parameter green361 bound to: 24'b010100110000000010000000 
+	Parameter green332 bound to: 24'b100000000000000010000000 
+	Parameter greense8 bound to: 24'b111111110000000000000000 
+	Parameter scancolor bound to: 24'b001010110011100000001000 
+	Parameter adjcolor bound to: 24'b011000110000000000000000 
+	Parameter unlock bound to: 24'b111111110000000000000000 
+	Parameter unlock1s bound to: 24'b111111111111111100000000 
+	Parameter motclr1 bound to: 24'b000000001111111100000000 
+	Parameter motclr2 bound to: 24'b000000001000101100000000 
+	Parameter motclr3 bound to: 24'b001010110011100000001000 
+	Parameter tin0r bound to: 16'sb0000000000100001 
+	Parameter tin1r bound to: 16'sb0000000000100001 
+	Parameter tin2r bound to: 16'sb0000000000100001 
+	Parameter tin3r bound to: 16'sb0000000000100001 
+	Parameter tin4r bound to: 16'sb0000000000100001 
+	Parameter tin5r bound to: 16'sb0000000000100001 
+	Parameter tin6r bound to: 16'sb0000000000100001 
+	Parameter tin7r bound to: 16'sb0000000000100001 
+	Parameter tin8r bound to: 16'sb0000000000100001 
+	Parameter tin9r bound to: 16'sb0000000000100001 
+	Parameter tin10r bound to: 16'sb0000000000100001 
+	Parameter HSIZE bound to: 320 - type: integer 
+	Parameter VSIZE bound to: 240 - type: integer 
+	Parameter HCYCLE bound to: 408 - type: integer 
+	Parameter HOFFSET bound to: 70 - type: integer 
+	Parameter HSYNC0 bound to: 0 - type: integer 
+	Parameter HSYNC1 bound to: 10 - type: integer 
+	Parameter VCYCLE bound to: 263 - type: integer 
+	Parameter VOFFSET bound to: 13 - type: integer 
+	Parameter VSYNC0 bound to: 0 - type: integer 
+	Parameter VSYNC1 bound to: 2 - type: integer 
+	Parameter SWIZZLE bound to: 0 - type: integer 
+	Parameter PCLK_POL bound to: 1 - type: integer 
+	Parameter CSPREAD bound to: 1 - type: integer 
+	Parameter PCLK bound to: 5 - type: integer 
+	Parameter RAM_DL bound to: 22'b1100000000000000000000 
+	Parameter RAM_REG bound to: 22'b1100000010000000000000 
+	Parameter RAM_CMD bound to: 22'b1100001000000000000000 
+	Parameter RAM_G bound to: 22'b0000000000000000000000 
+	Parameter REG_ID bound to: 22'b1100000010000000000000 
+	Parameter REG_CPURESET bound to: 22'b1100000010000000100000 
+	Parameter REG_HCYCLE bound to: 22'b1100000010000000101100 
+	Parameter REG_HOFFSET bound to: 22'b1100000010000000110000 
+	Parameter REG_HSYNC0 bound to: 22'b1100000010000000111000 
+	Parameter REG_HSYNC1 bound to: 22'b1100000010000000111100 
+	Parameter REG_VCYCLE bound to: 22'b1100000010000001000000 
+	Parameter REG_VOFFSET bound to: 22'b1100000010000001000100 
+	Parameter REG_VSYNC0 bound to: 22'b1100000010000001001100 
+	Parameter REG_VSYNC1 bound to: 22'b1100000010000001010000 
+	Parameter REG_SWIZZLE bound to: 22'b1100000010000001100100 
+	Parameter REG_PCLK_POL bound to: 22'b1100000010000001101100 
+	Parameter REG_CSPREAD bound to: 22'b1100000010000001101000 
+	Parameter REG_HSIZE bound to: 22'b1100000010000000110100 
+	Parameter REG_VSIZE bound to: 22'b1100000010000001001000 
+	Parameter REG_GPIO_DIR bound to: 22'b1100000010000010010000 
+	Parameter REG_GPIO bound to: 22'b1100000010000010010100 
+	Parameter REG_DLSWAP bound to: 22'b1100000010000001010100 
+	Parameter REG_PCLK bound to: 22'b1100000010000001110000 
+	Parameter REG_TOUCH_TAG bound to: 22'b1100000010000100101100 
+	Parameter REG_CMD_WRITE bound to: 22'b1100000010000011111100 
+	Parameter REG_CMD_READ bound to: 22'b1100000010000011111000 
+	Parameter CMD_DLSTART bound to: -256 - type: integer 
+	Parameter CMD_BUTTON bound to: -243 - type: integer 
+	Parameter CMD_TEXT bound to: -244 - type: integer 
+	Parameter CMD_CALIBRATE bound to: -235 - type: integer 
+	Parameter CMD_SWAP bound to: -255 - type: integer 
+	Parameter CMD_FGCOLOR bound to: -246 - type: integer 
+	Parameter bootuptime bound to: 24'b000010011001110011110000 
+	Parameter resetpulse bound to: 24'b000000001001010001110000 
+	Parameter PDuptime bound to: 24'b000000000000000000000011 
+	Parameter countMAX bound to: 8'b10110101 
+	Parameter hostcmd bound to: 26'b00000000000000000000000000 
+	Parameter debouncer bound to: 24'b000000000000000000010100 
+INFO: [Synth 8-6157] synthesizing module 'clr_str_4_st' [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/clr_str_4_st.v:12]
+	Parameter blue bound to: 24'b000000000000000011111111 
+	Parameter red bound to: 24'b111111110000000000000000 
+	Parameter orange bound to: 24'b111111111000110000000000 
+	Parameter lightblue bound to: 24'b101011011101100011100110 
+INFO: [Synth 8-6155] done synthesizing module 'clr_str_4_st' (1#1) [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/clr_str_4_st.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'display' (2#1) [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/display.v:15]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1183.793 ; gain = 31.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   24 Bit       Adders := 2     
+	   2 Input   22 Bit       Adders := 175   
+	   2 Input   20 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 175   
+	   2 Input   13 Bit       Adders := 175   
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 4     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 1     
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	               57 Bit    Registers := 205   
+	               32 Bit    Registers := 13    
+	               24 Bit    Registers := 28    
+	               23 Bit    Registers := 3     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 11    
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input   57 Bit        Muxes := 1434  
+	   3 Input   57 Bit        Muxes := 179   
+	   2 Input   32 Bit        Muxes := 57    
+	   5 Input   32 Bit        Muxes := 7     
+	   2 Input   31 Bit        Muxes := 1     
+	   4 Input   24 Bit        Muxes := 12    
+	   2 Input   24 Bit        Muxes := 26    
+	   3 Input   24 Bit        Muxes := 7     
+	   4 Input   23 Bit        Muxes := 3     
+	   2 Input   20 Bit        Muxes := 6     
+	   2 Input   16 Bit        Muxes := 175   
+	   2 Input   13 Bit        Muxes := 54    
+	   6 Input   13 Bit        Muxes := 1     
+	   4 Input   13 Bit        Muxes := 7     
+	   2 Input   12 Bit        Muxes := 8     
+	   2 Input    8 Bit        Muxes := 15    
+	   2 Input    6 Bit        Muxes := 10    
+	   2 Input    5 Bit        Muxes := 8     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 141   
+	   2 Input    1 Bit        Muxes := 489   
+	   3 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[0]' (FD) to 'cs4s0/c0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[1]' (FD) to 'cs4s0/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[2]' (FD) to 'cs4s0/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[3]' (FD) to 'cs4s0/c0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[5]' (FD) to 'cs4s0/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[6]' (FD) to 'cs4s0/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[8]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[9]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[11]' (FD) to 'cs4s0/c0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[12]' (FD) to 'cs4s0/c0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[13]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[16]' (FD) to 'cs4s0/c0_reg[18]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[17]' (FD) to 'cs4s0/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[18]' (FD) to 'cs4s0/c0_reg[19]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[19]' (FD) to 'cs4s0/c0_reg[21]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[20]' (FD) to 'cs4s0/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s0/c0_reg[21]' (FD) to 'cs4s0/c0_reg[23]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[0]' (FD) to 'cs4s6/c0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[1]' (FD) to 'cs4s6/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[2]' (FD) to 'cs4s6/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[3]' (FD) to 'cs4s6/c0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[5]' (FD) to 'cs4s6/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[6]' (FD) to 'cs4s6/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[8]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[9]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[11]' (FD) to 'cs4s6/c0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[12]' (FD) to 'cs4s6/c0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[13]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[16]' (FD) to 'cs4s6/c0_reg[18]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[17]' (FD) to 'cs4s6/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[18]' (FD) to 'cs4s6/c0_reg[19]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[19]' (FD) to 'cs4s6/c0_reg[21]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[20]' (FD) to 'cs4s6/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s6/c0_reg[21]' (FD) to 'cs4s6/c0_reg[23]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[0]' (FD) to 'cs4s2/c0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[1]' (FD) to 'cs4s2/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[2]' (FD) to 'cs4s2/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[3]' (FD) to 'cs4s2/c0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[5]' (FD) to 'cs4s2/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[6]' (FD) to 'cs4s2/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[8]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[9]' (FD) to 'cs4s2/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[11]' (FD) to 'cs4s2/c0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[12]' (FD) to 'cs4s2/c0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[13]' (FD) to 'cs4s3/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[16]' (FD) to 'cs4s2/c0_reg[18]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[17]' (FD) to 'cs4s2/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[18]' (FD) to 'cs4s2/c0_reg[19]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[19]' (FD) to 'cs4s2/c0_reg[21]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[20]' (FD) to 'cs4s2/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s2/c0_reg[21]' (FD) to 'cs4s2/c0_reg[23]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[0]' (FD) to 'cs4s3/c0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[1]' (FD) to 'cs4s3/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[2]' (FD) to 'cs4s3/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[3]' (FD) to 'cs4s3/c0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[5]' (FD) to 'cs4s3/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[6]' (FD) to 'cs4s3/c0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[8]' (FD) to 'cs4s3/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[9]' (FD) to 'cs4s3/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[11]' (FD) to 'cs4s3/c0_reg[15]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[12]' (FD) to 'cs4s3/c0_reg[14]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[13]' (FD) to 'cs4s1/c0_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[16]' (FD) to 'cs4s3/c0_reg[18]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[17]' (FD) to 'cs4s3/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[18]' (FD) to 'cs4s3/c0_reg[19]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[19]' (FD) to 'cs4s3/c0_reg[21]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[20]' (FD) to 'cs4s3/c0_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cs4s3/c0_reg[21]' (FD) to 'cs4s3/c0_reg[23]'
+INFO: [Synth 8-3886] merging instance 'colorbg_reg[0]' (FDSE) to 'colorbg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'colorbg_reg[1]' (FDSE) to 'colorbg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'colorbg_reg[2]' (FDSE) to 'colorbg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'colorbg_reg[3]' (FDRE) to 'colorbg_reg[4]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\colorbg_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cs4s4/c0_reg[13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\greenarr_reg[6][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\greenarr_reg[6][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\colorarr_reg[5][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\colorarr_reg[6][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\colorarr_reg[3][7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\colorarr_reg[3][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\colorarr_reg[2][7] )
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][0]' (FDSE) to 'greenarr_reg[7][6]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][1]' (FDRE) to 'greenarr_reg[7][2]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][2]' (FDRE) to 'greenarr_reg[7][3]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][3]' (FDRE) to 'greenarr_reg[7][4]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][4]' (FDRE) to 'greenarr_reg[7][5]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][5]' (FDRE) to 'greenarr_reg[7][7]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][6]' (FDSE) to 'greenarr_reg[7][8]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][7]' (FDRE) to 'greenarr_reg[7][9]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][8]' (FDSE) to 'greenarr_reg[7][16]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][9]' (FDRE) to 'greenarr_reg[7][10]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][10]' (FDRE) to 'greenarr_reg[7][11]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][11]' (FDRE) to 'greenarr_reg[7][12]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][12]' (FDRE) to 'greenarr_reg[7][13]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][13]' (FDRE) to 'greenarr_reg[7][14]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][14]' (FDRE) to 'greenarr_reg[7][15]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][15]' (FDRE) to 'greenarr_reg[7][18]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][16]' (FDSE) to 'greenarr_reg[7][17]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][17]' (FDSE) to 'greenarr_reg[7][21]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][18]' (FDRE) to 'greenarr_reg[7][19]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][19]' (FDRE) to 'greenarr_reg[7][20]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][20]' (FDRE) to 'greenarr_reg[7][23]'
+INFO: [Synth 8-3886] merging instance 'greenarr_reg[7][21]' (FDSE) to 'greenarr_reg[7][22]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\greenarr_reg[7][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\greenarr_reg[7][23] )
+INFO: [Synth 8-3886] merging instance 'colorarr_reg[7][0]' (FDE) to 'colorarr_reg[7][6]'
+INFO: [Synth 8-3886] merging instance 'colorarr_reg[7][1]' (FDE) to 'colorarr_reg[7][7]'
+INFO: [Synth 8-3886] merging instance 'colorarr_reg[7][2]' (FDE) to 'colorarr_reg[7][7]'
+INFO: [Synth 8-3886] merging instance 'colorarr_reg[7][4]' (FDE) to 'colorarr_reg[7][7]'
+INFO: [Synth 8-3886] merging instance 'colorarr_reg[7][5]' (FDE) to 'colorarr_reg[7][7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\colorarr_reg[7][7] )
+INFO: [Synth 8-3886] merging instance 'colorarr_reg[7][9]' (FDE) to 'colorarr_reg[7][15]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\colorarr_reg[7][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\colorarr_reg[4][7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\colorarr_reg[4][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cs4s5/c0_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cs4s5/c0_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cs4s5/c0_reg[13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[23] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[21] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[20] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[18] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[17] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[16] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[15] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[5] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[4] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\color_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[19][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[18][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[17][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[16][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[22][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[21][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[20][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[15][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[13][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[12][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[11][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[10][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[9][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[8][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[7][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[6][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[5][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[4][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[3][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[2][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[1][56] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[0][56] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[19][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[18][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[17][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[16][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[22][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[21][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[20][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[15][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[13][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[12][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[11][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[10][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[9][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[8][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[7][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[6][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[5][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[4][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[3][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[2][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[1][55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\iniarr_reg[0][55] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[19][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[18][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[17][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[16][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[22][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[21][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[20][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[15][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[13][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[12][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[11][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[10][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[9][54] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\iniarr_reg[8][54] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:57 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:29 ; elapsed = 00:02:01 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:34 ; elapsed = 00:02:08 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:03 ; elapsed = 00:02:37 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:03 ; elapsed = 00:02:37 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:03 ; elapsed = 00:02:38 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:04 ; elapsed = 00:02:38 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:04 ; elapsed = 00:02:38 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:04 ; elapsed = 00:02:38 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |   544|
+|2     |LUT1   |   646|
+|3     |LUT2   |   180|
+|4     |LUT3   |    91|
+|5     |LUT4   |   162|
+|6     |LUT5   |   126|
+|7     |LUT6   |  7600|
+|8     |MUXF7  |  1376|
+|9     |MUXF8  |   570|
+|10    |FDRE   |  9162|
+|11    |FDSE   |  1762|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:04 ; elapsed = 00:02:38 . Memory (MB): peak = 1207.688 ; gain = 55.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:04 ; elapsed = 00:02:39 . Memory (MB): peak = 1207.688 ; gain = 55.105
+Synthesis Optimization Complete : Time (s): cpu = 00:02:04 ; elapsed = 00:02:39 . Memory (MB): peak = 1207.688 ; gain = 55.105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.338 . Memory (MB): peak = 1207.688 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2490 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'display' is not ideal for floorplanning, since the cellview 'display' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1207.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+610 Infos, 108 Warnings, 115 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:10 ; elapsed = 00:02:47 . Memory (MB): peak = 1207.688 ; gain = 55.105
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads

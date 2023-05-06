@@ -1,0 +1,3 @@
+verilog work "hdl/display.v"
+verilog work "hdl/clr_str_4_st.v"
+verilog work "hdl/LCD_header.vh"

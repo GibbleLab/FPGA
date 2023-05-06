@@ -1,0 +1,2 @@
+verilog work "hdl/FastDACs.v"
+verilog work "hdl/MAX5875.v"

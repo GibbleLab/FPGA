@@ -1,0 +1,309 @@
+Command: synth_design -mode out_of_context -flatten_hierarchy rebuilt -top FM_MOT -part xc7k160tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FM_MOT' [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:13]
+	Parameter SCALING bound to: 24 - type: integer 
+	Parameter DEMSC bound to: 24 - type: integer 
+	Parameter DITH bound to: 5'b00000 
+	Parameter RMP1 bound to: 5'b00001 
+	Parameter RMP2 bound to: 5'b00010 
+	Parameter HLD1 bound to: 5'b00011 
+	Parameter CLUP bound to: 5'b00100 
+	Parameter CHLD bound to: 5'b00101 
+	Parameter CDWN bound to: 5'b00110 
+	Parameter HLD2 bound to: 5'b00111 
+	Parameter DOWN bound to: 5'b01000 
+	Parameter rampSc bound to: 14 - type: integer 
+	Parameter IDITH bound to: 2'b00 
+	Parameter IDWN1 bound to: 2'b01 
+	Parameter IDWN2 bound to: 2'b10 
+	Parameter IWAIT bound to: 2'b11 
+	Parameter INTGWT bound to: 2'b00 
+	Parameter INTGR1 bound to: 2'b01 
+	Parameter INTGR2 bound to: 2'b10 
+	Parameter INTGR3 bound to: 2'b11 
+INFO: [Synth 8-6157] synthesizing module 'lockIn' [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:9]
+	Parameter demodSize bound to: 24 - type: integer 
+	Parameter stepsizeLO bound to: 2'b01 
+	Parameter N0 bound to: 6'b001000 
+	Parameter N1 bound to: 6'b001010 
+	Parameter N2 bound to: 6'b000010 
+	Parameter TP0 bound to: 4'b0000 
+	Parameter DN0 bound to: 4'b0001 
+	Parameter DN1 bound to: 4'b0010 
+	Parameter DN2 bound to: 4'b0011 
+	Parameter BTM bound to: 4'b0100 
+	Parameter UP0 bound to: 4'b0101 
+	Parameter UP1 bound to: 4'b0110 
+	Parameter UP2 bound to: 4'b0111 
+	Parameter TP1 bound to: 4'b1000 
+	Parameter Z0 bound to: 3'b000 
+	Parameter TP bound to: 3'b001 
+	Parameter Z1 bound to: 3'b010 
+	Parameter BT bound to: 3'b011 
+	Parameter Z2 bound to: 3'b100 
+	Parameter Nd0 bound to: 6'b001010 
+	Parameter Nd1 bound to: 6'b010100 
+	Parameter Nd2f0 bound to: 6'b000100 
+	Parameter Nd2f1 bound to: 6'b001011 
+	Parameter Nd3f0 bound to: 6'b000010 
+	Parameter Nd3f1 bound to: 6'b001000 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:99]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:190]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:295]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:397]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:295]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:425]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:295]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:453]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:295]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:481]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:295]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:509]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:295]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:537]
+INFO: [Synth 8-6155] done synthesizing module 'lockIn' (1#1) [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/lockIn.v:9]
+WARNING: [Synth 8-689] width (24) of port connection 'trigzc' does not match port width (1) of module 'lockIn' [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:67]
+WARNING: [Synth 8-7071] port 'demod3fQ_out' of module 'lockIn' is unconnected for instance 'lockIn_inst' [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:63]
+WARNING: [Synth 8-7023] instance 'lockIn_inst' of module 'lockIn' has 14 connections declared, but only 13 given [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:63]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:211]
+INFO: [Synth 8-226] default block is never used [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:275]
+INFO: [Synth 8-226] default block is never used [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:367]
+INFO: [Synth 8-6155] done synthesizing module 'FM_MOT' (2#1) [C:/Users/Daniel/OneDrive/Desktop/CdLaserServosBoard4_HD_test_ooc/Sources/hdl/FM_MOT.sv:13]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'FMstate_reg' in module 'FM_MOT'
+INFO: [Synth 8-802] inferred FSM for state register 'IState_reg' in module 'FM_MOT'
+INFO: [Synth 8-802] inferred FSM for state register 'IntState_reg' in module 'FM_MOT'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  INTGWT |                               00 |                               00
+                  INTGR1 |                               01 |                               01
+                  INTGR2 |                               10 |                               10
+                  INTGR3 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'IntState_reg' using encoding 'sequential' in module 'FM_MOT'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    DITH |                             0000 |                            00000
+                    RMP1 |                             0001 |                            00001
+                    RMP2 |                             0010 |                            00010
+                    HLD1 |                             0011 |                            00011
+                    CLUP |                             0100 |                            00100
+                    CHLD |                             0101 |                            00101
+                    CDWN |                             0110 |                            00110
+                    HLD2 |                             0111 |                            00111
+                    DOWN |                             1000 |                            01000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'FMstate_reg' using encoding 'sequential' in module 'FM_MOT'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   IDITH |                               00 |                               00
+                   IDWN1 |                               01 |                               01
+                   IDWN2 |                               10 |                               10
+                   IWAIT |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'IState_reg' using encoding 'sequential' in module 'FM_MOT'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   40 Bit       Adders := 1     
+	   3 Input   40 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 5     
+	   3 Input   30 Bit       Adders := 2     
+	   3 Input   24 Bit       Adders := 6     
+	   2 Input   18 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 20    
+	   3 Input   16 Bit       Adders := 3     
+	   6 Input   16 Bit       Adders := 1     
+	   5 Input   16 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 7     
+	               30 Bit    Registers := 2     
+	               24 Bit    Registers := 12    
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 35    
+	               14 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 7     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   4 Input   40 Bit        Muxes := 1     
+	   9 Input   30 Bit        Muxes := 3     
+	   4 Input   30 Bit        Muxes := 2     
+	   6 Input   24 Bit        Muxes := 12    
+	   2 Input   24 Bit        Muxes := 6     
+	   2 Input   20 Bit        Muxes := 11    
+	   2 Input   19 Bit        Muxes := 38    
+	   6 Input   19 Bit        Muxes := 6     
+	   3 Input   16 Bit        Muxes := 4     
+	   4 Input   16 Bit        Muxes := 1     
+	  10 Input    5 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 9     
+	   2 Input    3 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 1     
+	  10 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 10    
+	   4 Input    2 Bit        Muxes := 2     
+	  10 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 22    
+	   7 Input    1 Bit        Muxes := 12    
+	   4 Input    1 Bit        Muxes := 8     
+	   3 Input    1 Bit        Muxes := 2     
+	   9 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |   288|
+|2     |LUT1   |   125|
+|3     |LUT2   |   399|
+|4     |LUT3   |   155|
+|5     |LUT4   |   783|
+|6     |LUT5   |   123|
+|7     |LUT6   |   348|
+|8     |MUXF7  |     1|
+|9     |FDRE   |  1020|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1708.180 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1708.180 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 289 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1708.180 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+745 Infos, 115 Warnings, 115 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1708.180 ; gain = 0.000
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads

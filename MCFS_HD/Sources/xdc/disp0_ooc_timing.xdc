@@ -1,0 +1,9 @@
+#---------------------------------------
+# Create Clock Constraints - disp0 
+#---------------------------------------
+create_clock -period 20.000 -name clk50_int.sclk [get_ports {sclk}] -waveform {0.000 10.000}
+set_property HD.CLK_SRC BUFGCTRL_X0Y11 [get_ports {sclk}]
+set_system_jitter 0.0
+set_clock_latency -source -max 4.57 [get_clocks {clk50_int.sclk}]
+set_clock_latency -source -min 3.721 [get_clocks {clk50_int.sclk}]
+set_clock_uncertainty 0.089 [get_clocks {clk50_int.sclk}]

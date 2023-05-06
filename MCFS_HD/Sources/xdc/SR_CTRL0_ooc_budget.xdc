@@ -1,0 +1,37 @@
+create_clock -period 20 -name clk50_int.CLK_IN [get_ports {CLK_IN}] -waveform { 0.000000 10.000000  }
+set_property HD.CLK_SRC BUFGCTRL_X0Y11 [get_ports {CLK_IN}] 
+set_max_delay -from [get_pins {ODDR_SRclk/C}]  -to [get_ports {CLK_SR}] -datapath_only 10
+set_max_delay -from [get_pins {SR_OUT_INT_reg/C}]  -to [get_ports {SR_OUT}] -datapath_only 10
+set_max_delay -from [get_pins {STROBE_INT_reg/C}]  -to [get_ports {STROBE_OUT}] -datapath_only 10
+set_max_delay -from [get_pins {bitcount_reg[0]/C}]  -to [get_ports {bitcount[0]}] -datapath_only 10
+set_max_delay -from [get_pins {bitcount_reg[1]/C}]  -to [get_ports {bitcount[1]}] -datapath_only 10
+set_max_delay -from [get_pins {bitcount_reg[2]/C}]  -to [get_ports {bitcount[2]}] -datapath_only 10
+set_max_delay -from [get_pins {bitcount_reg[3]/C}]  -to [get_ports {bitcount[3]}] -datapath_only 10
+set_max_delay -from [get_pins {bitcount_reg[4]/C}]  -to [get_ports {bitcount[4]}] -datapath_only 10
+set_max_delay -from [get_pins {cnt_rst_reg[0]/C}]  -to [get_ports {cnt_rst[0]}] -datapath_only 10
+set_max_delay -from [get_pins {cnt_rst_reg[1]/C}]  -to [get_ports {cnt_rst[1]}] -datapath_only 10
+set_max_delay -from [get_pins {cnt_rst_reg[2]/C}]  -to [get_ports {cnt_rst[2]}] -datapath_only 10
+set_max_delay -from [get_pins {in0_reg/C}]  -to [get_ports {in0}] -datapath_only 10
+set_max_delay -from [get_pins {in10_reg/C}]  -to [get_ports {in10}] -datapath_only 10
+set_max_delay -from [get_pins {in11_reg/C}]  -to [get_ports {in11}] -datapath_only 10
+set_max_delay -from [get_pins {in12_reg/C}]  -to [get_ports {in12}] -datapath_only 10
+set_max_delay -from [get_pins {in13_reg/C}]  -to [get_ports {in13}] -datapath_only 10
+set_max_delay -from [get_pins {in14_reg/C}]  -to [get_ports {in14}] -datapath_only 10
+set_max_delay -from [get_pins {in15_reg/C}]  -to [get_ports {in15}] -datapath_only 10
+set_max_delay -from [get_pins {in16_reg/C}]  -to [get_ports {in16}] -datapath_only 10
+set_max_delay -from [get_pins {in17_reg/C}]  -to [get_ports {in17}] -datapath_only 10
+set_max_delay -from [get_pins {in18_reg/C}]  -to [get_ports {in18}] -datapath_only 10
+set_max_delay -from [get_pins {in19_reg/C}]  -to [get_ports {in19}] -datapath_only 10
+set_max_delay -from [get_pins {in1_reg/C}]  -to [get_ports {in1}] -datapath_only 10
+set_max_delay -from [get_pins {in20_reg/C}]  -to [get_ports {in20}] -datapath_only 10
+set_max_delay -from [get_pins {in21_reg/C}]  -to [get_ports {in21}] -datapath_only 10
+set_max_delay -from [get_pins {in22_reg/C}]  -to [get_ports {in22}] -datapath_only 10
+set_max_delay -from [get_pins {in23_reg/C}]  -to [get_ports {in23}] -datapath_only 10
+set_max_delay -from [get_pins {in2_reg/C}]  -to [get_ports {in2}] -datapath_only 10
+set_max_delay -from [get_pins {in3_reg/C}]  -to [get_ports {in3}] -datapath_only 10
+set_max_delay -from [get_pins {in4_reg/C}]  -to [get_ports {in4}] -datapath_only 10
+set_max_delay -from [get_pins {in5_reg/C}]  -to [get_ports {in5}] -datapath_only 10
+set_max_delay -from [get_pins {in6_reg/C}]  -to [get_ports {in6}] -datapath_only 10
+set_max_delay -from [get_pins {in7_reg/C}]  -to [get_ports {in7}] -datapath_only 10
+set_max_delay -from [get_pins {in8_reg/C}]  -to [get_ports {in8}] -datapath_only 10
+set_max_delay -from [get_pins {in9_reg/C}]  -to [get_ports {in9}] -datapath_only 10

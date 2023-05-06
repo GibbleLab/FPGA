@@ -1,0 +1,2051 @@
+Command: synth_design -mode default -flatten_hierarchy rebuilt -top top -part xc7k160tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14888
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1029.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ooc/top.sv:85]
+	Parameter div0 bound to: 8.000000 - type: double 
+	Parameter div1 bound to: 8.000000 - type: double 
+	Parameter div2 bound to: 4.000000 - type: double 
+	Parameter div3 bound to: 2.000000 - type: double 
+	Parameter div4 bound to: 2.000000 - type: double 
+	Parameter div5 bound to: 4.000000 - type: double 
+	Parameter div6 bound to: 4.000000 - type: double 
+	Parameter phs0 bound to: 11.250000 - type: double 
+	Parameter phs1 bound to: 0.000000 - type: double 
+	Parameter phs2 bound to: 0.000000 - type: double 
+	Parameter phs3 bound to: 337.500000 - type: double 
+	Parameter phs4 bound to: 337.500000 - type: double 
+	Parameter phs5 bound to: 0.000000 - type: double 
+	Parameter phs6 bound to: 123.750000 - type: double 
+	Parameter div0b bound to: 8.000000 - type: double 
+	Parameter div1b bound to: 8.000000 - type: double 
+	Parameter div2b bound to: 8.000000 - type: double 
+	Parameter div3b bound to: 40.000000 - type: double 
+	Parameter div4b bound to: 16.000000 - type: double 
+	Parameter div5b bound to: 8.000000 - type: double 
+	Parameter div6b bound to: 8.000000 - type: double 
+	Parameter phs0b bound to: 0.000000 - type: double 
+	Parameter phs1b bound to: 0.000000 - type: double 
+	Parameter phs2b bound to: 0.000000 - type: double 
+	Parameter phs3b bound to: 0.000000 - type: double 
+	Parameter phs4b bound to: 0.000000 - type: double 
+	Parameter phs5b bound to: 0.000000 - type: double 
+	Parameter phs6b bound to: 0.000000 - type: double 
+	Parameter mmcm0loc bound to: MMCME2_ADV_X1Y2 - type: string 
+	Parameter mmcm1loc bound to: MMCME2_ADV_X1Y1 - type: string 
+	Parameter N bound to: 100 - type: integer 
+	Parameter N_CNV bound to: 50 - type: integer 
+	Parameter N_CH bound to: 24 - type: integer 
+	Parameter cntMAX_PD bound to: 26'b00001110010011100001110000 
+	Parameter N_H bound to: 0 - type: integer 
+	Parameter N_B bound to: 16 - type: integer 
+	Parameter N_P bound to: 9 - type: integer 
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter FMINTSC bound to: 24 - type: integer 
+	Parameter FMDEMODSC bound to: 24 - type: integer 
+	Parameter MOTMEMSIZE bound to: 1024 - type: integer 
+	Parameter MOTMEMSIGSIZE bound to: 16 - type: integer 
+	Parameter MOTADDRWIDTH bound to: 10 - type: integer 
+	Parameter TSCd_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter multCdBits bound to: 32'b00000000000000000000000000000111 
+	Parameter TSREF_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter multREFBits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS2_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult2Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS3_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult3Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS4_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult4Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS5_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult5Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS6_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult6Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS7_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult7Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS8_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult8Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter TS9_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter mult9Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter handshake_default bound to: 16'b0110001101100100 
+	Parameter N0 bound to: 24 - type: integer 
+	Parameter N1 bound to: 24 - type: integer 
+	Parameter fmin bound to: 16'sb1000000000000000 
+	Parameter fmax bound to: 16'sb0111111111111111 
+INFO: [Synth 8-6157] synthesizing module 'SignFlip' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/SignFlip.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'SignFlip' (1#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/SignFlip.v:9]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: LVCMOS18 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (2#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+INFO: [Synth 8-6157] synthesizing module 'reset' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/reset.v:9]
+	Parameter max bound to: 30'b000000000000000100111000100000 
+	Parameter rst_on bound to: 30'b000000000000000010011100010000 
+INFO: [Synth 8-6155] done synthesizing module 'reset' (3#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/reset.v:9]
+INFO: [Synth 8-6157] synthesizing module 'GlobalClocks' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/GlobalClocks.v:8]
+	Parameter div0 bound to: 8.000000 - type: double 
+	Parameter div1 bound to: 8.000000 - type: double 
+	Parameter div2 bound to: 4.000000 - type: double 
+	Parameter div3 bound to: 2.000000 - type: double 
+	Parameter div4 bound to: 2.000000 - type: double 
+	Parameter div5 bound to: 4.000000 - type: double 
+	Parameter div6 bound to: 4.000000 - type: double 
+	Parameter phs0 bound to: 11.250000 - type: double 
+	Parameter phs1 bound to: 0.000000 - type: double 
+	Parameter phs2 bound to: 0.000000 - type: double 
+	Parameter phs3 bound to: 337.500000 - type: double 
+	Parameter phs4 bound to: 337.500000 - type: double 
+	Parameter phs5 bound to: 0.000000 - type: double 
+	Parameter phs6 bound to: 123.750000 - type: double 
+	Parameter mmcmloc bound to: MMCME2_ADV_X1Y2 - type: string 
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_BASE' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:40114]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 8.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 8.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 11.250000 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_DIVIDE bound to: 2 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 337.500000 - type: double 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 2 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 337.500000 - type: double 
+	Parameter CLKOUT5_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_DIVIDE bound to: 4 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 123.750000 - type: double 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.000000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_BASE' (4#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:40114]
+INFO: [Synth 8-6155] done synthesizing module 'GlobalClocks' (5#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/GlobalClocks.v:8]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (6#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'GlobalClocks__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/GlobalClocks.v:8]
+	Parameter div0 bound to: 8.000000 - type: double 
+	Parameter div1 bound to: 8.000000 - type: double 
+	Parameter div2 bound to: 8.000000 - type: double 
+	Parameter div3 bound to: 40.000000 - type: double 
+	Parameter div4 bound to: 16.000000 - type: double 
+	Parameter div5 bound to: 8.000000 - type: double 
+	Parameter div6 bound to: 8.000000 - type: double 
+	Parameter phs0 bound to: 0.000000 - type: double 
+	Parameter phs1 bound to: 0.000000 - type: double 
+	Parameter phs2 bound to: 0.000000 - type: double 
+	Parameter phs3 bound to: 0.000000 - type: double 
+	Parameter phs4 bound to: 0.000000 - type: double 
+	Parameter phs5 bound to: 0.000000 - type: double 
+	Parameter phs6 bound to: 0.000000 - type: double 
+	Parameter mmcmloc bound to: MMCME2_ADV_X1Y1 - type: string 
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_BASE__parameterized0' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:40114]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 8.000000 - type: double 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE_F bound to: 8.000000 - type: double 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_DIVIDE bound to: 40 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 16 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT6_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: double 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.000000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_BASE__parameterized0' (6#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:40114]
+INFO: [Synth 8-6155] done synthesizing module 'GlobalClocks__parameterized0' (6#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/GlobalClocks.v:8]
+INFO: [Synth 8-6157] synthesizing module 'gated_clk' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/gated_clk.v:9]
+	Parameter cntMAX bound to: 10'b1100100000 
+INFO: [Synth 8-6157] synthesizing module 'BUFGCE' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1093]
+	Parameter CE_TYPE bound to: SYNC - type: string 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_I_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: ULTRASCALE - type: string 
+	Parameter STARTUP_SYNC bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'BUFGCE' (7#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1093]
+INFO: [Synth 8-6155] done synthesizing module 'gated_clk' (8#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/gated_clk.v:9]
+INFO: [Synth 8-6157] synthesizing module 'FastADCsDDR' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FastADCsDDR.v:15]
+	Parameter N00 bound to: 3'b100 
+	Parameter N01 bound to: 3'b100 
+	Parameter N10 bound to: 3'b100 
+	Parameter N11 bound to: 3'b100 
+	Parameter N20 bound to: 3'b100 
+	Parameter N21 bound to: 3'b100 
+	Parameter N30 bound to: 3'b100 
+	Parameter N31 bound to: 3'b100 
+	Parameter N40 bound to: 3'b100 
+	Parameter N41 bound to: 3'b100 
+	Parameter N50 bound to: 3'b100 
+	Parameter N51 bound to: 3'b100 
+	Parameter N60 bound to: 3'b100 
+	Parameter N61 bound to: 3'b100 
+	Parameter N70 bound to: 3'b100 
+	Parameter N71 bound to: 3'b100 
+	Parameter N80 bound to: 3'b100 
+	Parameter N81 bound to: 3'b100 
+	Parameter N90 bound to: 3'b100 
+	Parameter N91 bound to: 3'b100 
+	Parameter dly00 bound to: 8 - type: integer 
+	Parameter dly01 bound to: 9 - type: integer 
+	Parameter dly10 bound to: 10 - type: integer 
+	Parameter dly11 bound to: 9 - type: integer 
+	Parameter dlyf0 bound to: 11 - type: integer 
+	Parameter dly20 bound to: 22 - type: integer 
+	Parameter dly21 bound to: 23 - type: integer 
+	Parameter dly30 bound to: 24 - type: integer 
+	Parameter dly31 bound to: 24 - type: integer 
+	Parameter dlyf1 bound to: 23 - type: integer 
+	Parameter dly40 bound to: 19 - type: integer 
+	Parameter dly41 bound to: 15 - type: integer 
+	Parameter dly50 bound to: 14 - type: integer 
+	Parameter dly51 bound to: 13 - type: integer 
+	Parameter dlyf2 bound to: 14 - type: integer 
+	Parameter dly60 bound to: 14 - type: integer 
+	Parameter dly61 bound to: 16 - type: integer 
+	Parameter dly70 bound to: 17 - type: integer 
+	Parameter dly71 bound to: 17 - type: integer 
+	Parameter dlyf3 bound to: 17 - type: integer 
+	Parameter dly80 bound to: 16 - type: integer 
+	Parameter dly81 bound to: 17 - type: integer 
+	Parameter dly90 bound to: 16 - type: integer 
+	Parameter dly91 bound to: 16 - type: integer 
+	Parameter dlyf4 bound to: 17 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:49784]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (9#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:49784]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (10#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46328]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYCTRL' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35056]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (11#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35056]
+INFO: [Synth 8-6157] synthesizing module 'LTC2194DDR' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+	Parameter N00 bound to: 3'b100 
+	Parameter N01 bound to: 3'b100 
+	Parameter N10 bound to: 3'b100 
+	Parameter N11 bound to: 3'b100 
+	Parameter delay0 bound to: 8 - type: integer 
+	Parameter delay1 bound to: 9 - type: integer 
+	Parameter delay2 bound to: 10 - type: integer 
+	Parameter delay3 bound to: 9 - type: integer 
+	Parameter delay4 bound to: 11 - type: integer 
+	Parameter N_LVDS bound to: 5 - type: integer 
+	Parameter N_SERIAL bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32992]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: TRUE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (12#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32992]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 8 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (13#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'ISERDESE2' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:38616]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter IS_CLKB_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIVP_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_OCLKB_INVERTED bound to: 1'b0 
+	Parameter IS_OCLK_INVERTED bound to: 1'b0 
+	Parameter NUM_CE bound to: 2 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'ISERDESE2' (14#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:38616]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized0' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 9 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized0' (14#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized1' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 10 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized1' (14#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized2' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 11 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized2' (14#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'BitslipStatic' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/BitslipStatic.v:10]
+	Parameter start_delay bound to: 100000 - type: integer 
+	Parameter N bound to: 3'b100 
+	Parameter wait_time bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BitslipStatic' (15#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/BitslipStatic.v:10]
+INFO: [Synth 8-6157] synthesizing module 'BitslipDynamic' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/BitslipDynamic.v:8]
+	Parameter training_pattern bound to: 8'b11110000 
+	Parameter wait_time bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BitslipDynamic' (16#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/BitslipDynamic.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'LTC2194DDR' (17#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+INFO: [Synth 8-6157] synthesizing module 'LTC2194DDR__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+	Parameter N00 bound to: 3'b100 
+	Parameter N01 bound to: 3'b100 
+	Parameter N10 bound to: 3'b100 
+	Parameter N11 bound to: 3'b100 
+	Parameter delay0 bound to: 22 - type: integer 
+	Parameter delay1 bound to: 23 - type: integer 
+	Parameter delay2 bound to: 24 - type: integer 
+	Parameter delay3 bound to: 24 - type: integer 
+	Parameter delay4 bound to: 23 - type: integer 
+	Parameter N_LVDS bound to: 5 - type: integer 
+	Parameter N_SERIAL bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized3' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 22 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized3' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized4' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 23 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized4' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized5' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 24 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized5' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6155] done synthesizing module 'LTC2194DDR__parameterized0' (17#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+INFO: [Synth 8-6157] synthesizing module 'LTC2194DDR__parameterized1' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+	Parameter N00 bound to: 3'b100 
+	Parameter N01 bound to: 3'b100 
+	Parameter N10 bound to: 3'b100 
+	Parameter N11 bound to: 3'b100 
+	Parameter delay0 bound to: 19 - type: integer 
+	Parameter delay1 bound to: 15 - type: integer 
+	Parameter delay2 bound to: 14 - type: integer 
+	Parameter delay3 bound to: 13 - type: integer 
+	Parameter delay4 bound to: 14 - type: integer 
+	Parameter N_LVDS bound to: 5 - type: integer 
+	Parameter N_SERIAL bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized6' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 19 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized6' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized7' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 15 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized7' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized8' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 14 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized8' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized9' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 13 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized9' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6155] done synthesizing module 'LTC2194DDR__parameterized1' (17#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+INFO: [Synth 8-6157] synthesizing module 'LTC2194DDR__parameterized2' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+	Parameter N00 bound to: 3'b100 
+	Parameter N01 bound to: 3'b100 
+	Parameter N10 bound to: 3'b100 
+	Parameter N11 bound to: 3'b100 
+	Parameter delay0 bound to: 14 - type: integer 
+	Parameter delay1 bound to: 16 - type: integer 
+	Parameter delay2 bound to: 17 - type: integer 
+	Parameter delay3 bound to: 17 - type: integer 
+	Parameter delay4 bound to: 17 - type: integer 
+	Parameter N_LVDS bound to: 5 - type: integer 
+	Parameter N_SERIAL bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized10' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 16 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized10' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized11' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 17 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized11' (17#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6155] done synthesizing module 'LTC2194DDR__parameterized2' (17#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+INFO: [Synth 8-6157] synthesizing module 'LTC2194DDR__parameterized3' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+	Parameter N00 bound to: 3'b100 
+	Parameter N01 bound to: 3'b100 
+	Parameter N10 bound to: 3'b100 
+	Parameter N11 bound to: 3'b100 
+	Parameter delay0 bound to: 16 - type: integer 
+	Parameter delay1 bound to: 17 - type: integer 
+	Parameter delay2 bound to: 16 - type: integer 
+	Parameter delay3 bound to: 16 - type: integer 
+	Parameter delay4 bound to: 17 - type: integer 
+	Parameter N_LVDS bound to: 5 - type: integer 
+	Parameter N_SERIAL bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'LTC2194DDR__parameterized3' (17#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/LTC2194DDR.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'FastADCsDDR' (18#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FastADCsDDR.v:15]
+INFO: [Synth 8-6157] synthesizing module 'FastADCs_SPI' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FastADCs_SPI.v:17]
+	Parameter transfer_size bound to: 16 - type: integer 
+	Parameter IDLE bound to: 8'b00000000 
+	Parameter RST1 bound to: 8'b00000001 
+	Parameter RST2A bound to: 8'b00000010 
+	Parameter RST2B bound to: 8'b00000011 
+	Parameter RST2C bound to: 8'b00000100 
+	Parameter RST3A bound to: 8'b00000101 
+	Parameter RST3B bound to: 8'b00000110 
+	Parameter RST3C bound to: 8'b00000111 
+	Parameter RST4A bound to: 8'b00001000 
+	Parameter RST4B bound to: 8'b00001001 
+	Parameter RST4C bound to: 8'b00001010 
+	Parameter RST5A bound to: 8'b00001011 
+	Parameter RST5B bound to: 8'b00001100 
+	Parameter RST5C bound to: 8'b00001101 
+	Parameter RST6A bound to: 8'b00001110 
+	Parameter RST6B bound to: 8'b00001111 
+	Parameter RST6C bound to: 8'b00010000 
+	Parameter OFFA bound to: 8'b00010001 
+	Parameter OFFB bound to: 8'b00010010 
+	Parameter OFFC bound to: 8'b00010011 
+	Parameter OFFD bound to: 8'b00010100 
+	Parameter ONA bound to: 8'b00010101 
+	Parameter ONB bound to: 8'b00010110 
+	Parameter ONC bound to: 8'b00010111 
+	Parameter counter_off_max bound to: -1294967296 - type: integer 
+	Parameter TPm bound to: 8'b10110011 
+	Parameter TPl bound to: 8'b00010111 
+INFO: [Synth 8-6157] synthesizing module 'IBUF__parameterized0' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: LVCMOS25 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF__parameterized0' (18#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+INFO: [Synth 8-6157] synthesizing module 'OBUF' [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46314]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: LVCMOS25 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUF' (19#1) [C:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:46314]
+INFO: [Synth 8-6157] synthesizing module 'SPI' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/SPI.v:13]
+	Parameter TRANSFER_SIZE bound to: 16 - type: integer 
+	Parameter IDLE bound to: 3'b000 
+	Parameter TRIG bound to: 3'b001 
+	Parameter SPI1 bound to: 3'b010 
+	Parameter SPI2 bound to: 3'b011 
+	Parameter SPI3 bound to: 3'b100 
+INFO: [Synth 8-6155] done synthesizing module 'SPI' (20#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/SPI.v:13]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FastADCs_SPI.v:232]
+INFO: [Synth 8-6155] done synthesizing module 'FastADCs_SPI' (21#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FastADCs_SPI.v:17]
+INFO: [Synth 8-6157] synthesizing module 'SlowADCs' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/SlowADCs_bb.sv:6]
+	Parameter N bound to: 100 - type: integer 
+	Parameter N_CNV bound to: 50 - type: integer 
+	Parameter N_CH bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SlowADCs' (22#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/SlowADCs_bb.sv:6]
+INFO: [Synth 8-6157] synthesizing module 'Sig1Dly' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Sig1Dly.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Sig1Dly' (23#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Sig1Dly.v:9]
+INFO: [Synth 8-6157] synthesizing module 'serialLine' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/serialLine.v:10]
+	Parameter N bound to: 14'b00001111010011 
+	Parameter IDLE bound to: 2'b00 
+	Parameter CNT1 bound to: 2'b01 
+	Parameter CNT0 bound to: 2'b10 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/serialLine.v:42]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/serialLine.v:103]
+INFO: [Synth 8-6155] done synthesizing module 'serialLine' (24#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/serialLine.v:10]
+INFO: [Synth 8-6157] synthesizing module 'CavServos' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/CavServos.v:17]
+	Parameter N_B bound to: 16 - type: integer 
+	Parameter N_P bound to: 9 - type: integer 
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter LL0 bound to: 25'sb1000000000000000000000000 
+	Parameter UL0 bound to: 25'sb0111111111111111111111111 
+	Parameter LL1 bound to: 25'sb1000000000000000000000000 
+	Parameter UL1 bound to: 25'sb0111111111111111111111111 
+	Parameter LL2 bound to: 25'sb1000000000000000000000000 
+	Parameter UL2 bound to: 25'sb0111111111111111111111111 
+	Parameter LL3 bound to: 25'sb1000000000000000000000000 
+	Parameter UL3 bound to: 25'sb0111111111111111111111111 
+	Parameter LL4 bound to: 25'sb1000000000000000000000000 
+	Parameter UL4 bound to: 25'sb0111111111111111111111111 
+	Parameter LL5 bound to: 25'sb1000000000000000000000000 
+	Parameter UL5 bound to: 25'sb0111111111111111111111111 
+	Parameter LL6 bound to: 25'sb1000000000000000000000000 
+	Parameter UL6 bound to: 25'sb0111111111111111111111111 
+	Parameter LL7 bound to: 25'sb1000000000000000000000000 
+	Parameter UL7 bound to: 25'sb0111111111111111111111111 
+	Parameter LL8 bound to: 25'sb1000000000000000000000000 
+	Parameter UL8 bound to: 25'sb0111111111111111111111111 
+	Parameter CS0_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS0_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS0_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS1_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS1_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS1_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS2_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS2_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS2_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS3_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS3_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS3_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS4_ISCALING bound to: 32'b00000000000000000000000000100101 
+	Parameter CS4_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS4_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS5_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS5_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS5_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS6_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS6_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS6_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS7_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS7_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS7_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter CS8_ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS8_PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter CS8_DSCALING bound to: 32'b00000000000000000000000000010000 
+	Parameter NIhld0 bound to: 2 - type: integer 
+	Parameter N_dithDly_0 bound to: 20'b11110100001001000000 
+	Parameter NIhld1 bound to: 2 - type: integer 
+	Parameter N_dithDly_1 bound to: 20'b11110100001001000000 
+	Parameter mean_sweep_2_dum bound to: 16'sb0000000000000000 
+	Parameter NIhld2 bound to: 2 - type: integer 
+	Parameter N_dithDly_2 bound to: 20'b11110100001001000000 
+	Parameter mean_sweep_3_dum bound to: 16'sb0000000000000000 
+	Parameter NIhld3 bound to: 2 - type: integer 
+	Parameter N_dithDly_3 bound to: 20'b11110100001001000000 
+	Parameter dithcnt4_MAX bound to: 10 - type: integer 
+	Parameter dithcnt5_MAX bound to: 68 - type: integer 
+	Parameter NIhld4 bound to: 2 - type: integer 
+	Parameter N_dithDly_4 bound to: 20'b11110100001001000000 
+	Parameter NIhld5 bound to: 2 - type: integer 
+	Parameter N_dithDly_5 bound to: 20'b11110100001001000000 
+	Parameter NIhld6 bound to: 2 - type: integer 
+	Parameter N_dithDly_6 bound to: 20'b11110100001001000000 
+	Parameter NIhld7 bound to: 2 - type: integer 
+	Parameter N_dithDly_7 bound to: 20'b11110100001001000000 
+	Parameter NIhld8 bound to: 2 - type: integer 
+	Parameter N_dithDly_8 bound to: 20'b11110100001001000000 
+INFO: [Synth 8-6157] synthesizing module 'AutoLock' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/AutoLock.v:31]
+	Parameter reftrans bound to: trans - type: string 
+	Parameter mode bound to: minmax - type: string 
+	Parameter offmode bound to: zero - type: string 
+	Parameter sweepresetmode bound to: zero - type: string 
+INFO: [Synth 8-6157] synthesizing module 'Sweep' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Sweep.v:10]
+	Parameter SIGNAL_OUT_SIZE bound to: 16 - type: integer 
+	Parameter resetmode bound to: zero - type: string 
+	Parameter GOINGUP bound to: 1'b0 
+	Parameter GOINGDOWN bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'Sweep' (25#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Sweep.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'AutoLock' (26#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/AutoLock.v:31]
+INFO: [Synth 8-6157] synthesizing module 'ErrorScaleShift' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ErrorScaleShift.v:8]
+	Parameter N_B bound to: 16 - type: integer 
+	Parameter N_P bound to: 9 - type: integer 
+	Parameter N_err_sh bound to: 9 - type: integer 
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ErrorScaleShift' (27#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ErrorScaleShift.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ditherInhibit' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ditherInhibit.v:8]
+	Parameter N_B bound to: 16 - type: integer 
+	Parameter NIhld bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ditherInhibit' (28#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ditherInhibit.v:8]
+INFO: [Synth 8-6157] synthesizing module 'CavPID' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/CavPID.v:8]
+	Parameter FILTER_IO_SIZE bound to: 25 - type: integer 
+	Parameter ISCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter DSCALING bound to: 32'b00000000000000000000000000010000 
+INFO: [Synth 8-6157] synthesizing module 'I1BS' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter FB bound to: 32 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'I1BS' (29#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+INFO: [Synth 8-6157] synthesizing module 'P1BS' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter FB bound to: 32 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'P1BS' (30#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+INFO: [Synth 8-6157] synthesizing module 'DBS_rolloff' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS_rolloff.v:25]
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter FB bound to: 16 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DBS_rolloff' (31#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS_rolloff.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'CavPID' (32#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/CavPID.v:8]
+INFO: [Synth 8-6157] synthesizing module 'P1BS__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter FB bound to: 32 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'P1BS__parameterized0' (32#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+INFO: [Synth 8-6157] synthesizing module 'DitherLock' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DitherLock.v:9]
+	Parameter N_dithDly bound to: 20'b11110100001001000000 
+	Parameter N_B bound to: 16 - type: integer 
+	Parameter N_P bound to: 9 - type: integer 
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter zcmode bound to: 1'b0 
+	Parameter demodSize bound to: 35 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'lockIn' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:9]
+	Parameter demodSize bound to: 35 - type: integer 
+	Parameter stepsizeLO bound to: 2'b01 
+	Parameter N0 bound to: 6'b001000 
+	Parameter N1 bound to: 6'b001010 
+	Parameter N2 bound to: 6'b000010 
+	Parameter TP0 bound to: 4'b0000 
+	Parameter DN0 bound to: 4'b0001 
+	Parameter DN1 bound to: 4'b0010 
+	Parameter DN2 bound to: 4'b0011 
+	Parameter BTM bound to: 4'b0100 
+	Parameter UP0 bound to: 4'b0101 
+	Parameter UP1 bound to: 4'b0110 
+	Parameter UP2 bound to: 4'b0111 
+	Parameter TP1 bound to: 4'b1000 
+	Parameter Z0 bound to: 3'b000 
+	Parameter TP bound to: 3'b001 
+	Parameter Z1 bound to: 3'b010 
+	Parameter BT bound to: 3'b011 
+	Parameter Z2 bound to: 3'b100 
+	Parameter Nd0 bound to: 6'b001010 
+	Parameter Nd1 bound to: 6'b010100 
+	Parameter Nd2f0 bound to: 6'b000100 
+	Parameter Nd2f1 bound to: 6'b001011 
+	Parameter Nd3f0 bound to: 6'b000010 
+	Parameter Nd3f1 bound to: 6'b001000 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:100]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:190]
+INFO: [Synth 8-226] default block is never used [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:279]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:340]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:441]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:340]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:469]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:340]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:497]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:340]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:525]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:340]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:553]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:340]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:581]
+INFO: [Synth 8-6155] done synthesizing module 'lockIn' (33#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/lockIn.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'DitherLock' (34#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DitherLock.v:9]
+INFO: [Synth 8-6157] synthesizing module 'I1BS__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter FB bound to: 29 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'I1BS__parameterized0' (34#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+INFO: [Synth 8-6157] synthesizing module 'AutoLock__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/AutoLock.v:31]
+	Parameter reftrans bound to: trans - type: string 
+	Parameter mode bound to: meanamp - type: string 
+	Parameter offmode bound to: zero - type: string 
+	Parameter sweepresetmode bound to: zero - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'AutoLock__parameterized0' (34#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/AutoLock.v:31]
+INFO: [Synth 8-6157] synthesizing module 'dithSwitch' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/dithSwitch.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'dithSwitch' (35#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/dithSwitch.v:11]
+INFO: [Synth 8-6157] synthesizing module 'CavPID__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/CavPID.v:8]
+	Parameter FILTER_IO_SIZE bound to: 25 - type: integer 
+	Parameter ISCALING bound to: 32'b00000000000000000000000000100101 
+	Parameter PSCALING bound to: 32'b00000000000000000000000000100000 
+	Parameter DSCALING bound to: 32'b00000000000000000000000000010000 
+INFO: [Synth 8-6157] synthesizing module 'I1BS__parameterized1' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+	Parameter SIGNAL_SIZE bound to: 25 - type: integer 
+	Parameter FB bound to: 37 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'I1BS__parameterized1' (35#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'CavPID__parameterized0' (35#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/CavPID.v:8]
+INFO: [Synth 8-6157] synthesizing module 'AutoLock__parameterized1' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/AutoLock.v:31]
+	Parameter reftrans bound to: ref - type: string 
+	Parameter mode bound to: meanamp - type: string 
+	Parameter offmode bound to: mean - type: string 
+	Parameter sweepresetmode bound to: max - type: string 
+INFO: [Synth 8-6157] synthesizing module 'Sweep__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Sweep.v:10]
+	Parameter SIGNAL_OUT_SIZE bound to: 16 - type: integer 
+	Parameter resetmode bound to: max - type: string 
+	Parameter GOINGUP bound to: 1'b0 
+	Parameter GOINGDOWN bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'Sweep__parameterized0' (35#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Sweep.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'AutoLock__parameterized1' (35#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/AutoLock.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'CavServos' (36#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/CavServos.v:17]
+INFO: [Synth 8-6157] synthesizing module 'SelectableOutput15' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/SelectableOutput15.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/SelectableOutput15.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'SelectableOutput15' (37#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/SelectableOutput15.v:7]
+INFO: [Synth 8-6157] synthesizing module 'FM_MOT_PARAM_ASSIGN' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FM_MOT_PARAM_ASSIGN.v:9]
+	Parameter N_B bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FM_MOT_PARAM_ASSIGN' (38#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FM_MOT_PARAM_ASSIGN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'FM_MOT' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/FM_MOT_bb.sv:5]
+	Parameter SCALING bound to: 24 - type: integer 
+	Parameter DEMSC bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FM_MOT' (39#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/FM_MOT_bb.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'fmMOTmem' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/fmMOTmem.v:7]
+	Parameter MEMSIZE bound to: 1024 - type: integer 
+	Parameter SIGSIZE bound to: 16 - type: integer 
+	Parameter ADDRWIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ram_dual' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ram_dual.sv:7]
+	Parameter MEMSIZE bound to: 1024 - type: integer 
+	Parameter SIGSIZE bound to: 16 - type: integer 
+	Parameter ADDRWIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ram_dual' (40#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ram_dual.sv:7]
+WARNING: [Synth 8-689] width (32) of port connection 'addr_out' does not match port width (10) of module 'ram_dual' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/fmMOTmem.v:29]
+WARNING: [Synth 8-689] width (32) of port connection 'addr_out' does not match port width (10) of module 'ram_dual' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/fmMOTmem.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'fmMOTmem' (41#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/fmMOTmem.v:7]
+INFO: [Synth 8-6157] synthesizing module 'TempServos' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/TempServos.v:13]
+	Parameter TSCd_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TSREF_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS2_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS3_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS4_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS5_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS6_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS7_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS8_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter TS9_FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter multCdBits bound to: 32'b00000000000000000000000000000111 
+	Parameter multREFBits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult2Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult3Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult4Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult5Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult6Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult7Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult8Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter mult9Bits bound to: 32'b00000000000000000000000000000111 
+	Parameter cnt_vdc_max bound to: 100000 - type: integer 
+	Parameter TSCd_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TSCd_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TSCd_DSCALING bound to: 32'b00000000000000000000000000011001 
+	Parameter TSCd_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TSCd_on_dly_cnt bound to: 32'b00000000000000000000000000000000 
+	Parameter TSCd_MULT bound to: 6'b011001 
+	Parameter TS_on_Cd_1 bound to: 1'b1 
+	Parameter sp_Cd_1 bound to: 18'sb000000000101000100 
+	Parameter TS_on_Cd_2 bound to: 1 - type: integer 
+	Parameter sp_Cd_2 bound to: 18'sb000000000110000110 
+	Parameter NT_Cd bound to: 100000 - type: integer 
+	Parameter LL_Cd bound to: 18'sb000000000000000000 
+	Parameter UL_Cd bound to: 18'sb011000011000111100 
+	Parameter Nprst_Cd bound to: 18'sb000000000000000000 
+	Parameter TSREF_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TSREF_PSCALING bound to: 32'b00000000000000000000000000010001 
+	Parameter TSREF_DSCALING bound to: 32'b00000000000000000000000000100001 
+	Parameter TSREF_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TSREF_on_dly_cnt bound to: 32'b00000000000000000111010100110000 
+	Parameter TSREF_MULT bound to: 6'b011001 
+	Parameter NT_REF bound to: 100000 - type: integer 
+	Parameter LL_REF bound to: 18'sb101100001010011110 
+	Parameter UL_REF bound to: 18'sb000100100100111110 
+	Parameter Nprst_REF_MAX bound to: 18'sb010011110101100010 
+	Parameter step_REF bound to: 42'sb000000000000000000000100111101011000100000 
+	Parameter TS2_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS2_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TS2_DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter TS2_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS2_on_dly_cnt bound to: 32'b00000000000000001110101001100000 
+	Parameter TS2_MULT bound to: 6'b011001 
+	Parameter NT_2 bound to: 100000 - type: integer 
+	Parameter LL_2 bound to: 18'sb110101000000111000 
+	Parameter UL_2 bound to: 18'sb001010111111001000 
+	Parameter Nprst_2_MAX bound to: 18'sb001010111111001000 
+	Parameter step_2 bound to: 42'sb000000000000000000000000001010111111001000 
+	Parameter TS3_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS3_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TS3_DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter TS3_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS3_on_dly_cnt bound to: 32'b00000000000000010101111110010000 
+	Parameter TS3_MULT bound to: 6'b011001 
+	Parameter NT_3 bound to: 100000 - type: integer 
+	Parameter LL_3 bound to: 18'sb110101000000111000 
+	Parameter UL_3 bound to: 18'sb001010111111001000 
+	Parameter Nprst_3_MAX bound to: 18'sb001010111111001000 
+	Parameter step_3 bound to: 42'sb000000000000000000000000001010111111001000 
+	Parameter TS4_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS4_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TS4_DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter TS4_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS4_on_dly_cnt bound to: 32'b00000000000000000100111000100000 
+	Parameter TS4_MULT bound to: 6'b011001 
+	Parameter NT_4 bound to: 100000 - type: integer 
+	Parameter LL_4 bound to: 18'sb110101000000111000 
+	Parameter UL_4 bound to: 18'sb001010111111001000 
+	Parameter Nprst_4_MAX bound to: 18'sb001010111111001000 
+	Parameter step_4 bound to: 42'sb000000000000000000000000001010111111001000 
+	Parameter TS5_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS5_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TS5_DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter TS5_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS5_on_dly_cnt bound to: 32'b00000000000000001100001101010000 
+	Parameter TS5_MULT bound to: 6'b011001 
+	Parameter NT_5 bound to: 100000 - type: integer 
+	Parameter LL_5 bound to: 18'sb110110001111000000 
+	Parameter UL_5 bound to: 18'sb001100001101010000 
+	Parameter Nprst_5_MAX bound to: 18'sb001001110001000000 
+	Parameter step_5 bound to: 42'sb000000000000000000000000001001110001000000 
+	Parameter TS6_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS6_PSCALING bound to: 32'b00000000000000000000000000010001 
+	Parameter TS6_DSCALING bound to: 32'b00000000000000000000000000100001 
+	Parameter TS6_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS6_on_dly_cnt bound to: 32'b00000000000000010011100010000000 
+	Parameter TS6_MULT bound to: 6'b011001 
+	Parameter NT_6 bound to: 100000 - type: integer 
+	Parameter LL_6 bound to: 18'sb101100011110000000 
+	Parameter UL_6 bound to: 18'sb000010011100010000 
+	Parameter Nprst_6_MAX bound to: 18'sb010011100010000000 
+	Parameter step_6 bound to: 42'sb000000000000000000000000010011100010000000 
+	Parameter TS7_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS7_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TS7_DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter TS7_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS7_on_dly_cnt bound to: 32'b00000000000000000010011100010000 
+	Parameter TS7_MULT bound to: 6'b011001 
+	Parameter NT_7 bound to: 100000 - type: integer 
+	Parameter LL_7 bound to: 18'sb110001010110100000 
+	Parameter UL_7 bound to: 18'sb000110000110101000 
+	Parameter Nprst_7_MAX bound to: 18'sb001110101001100000 
+	Parameter step_7 bound to: 42'sb000000000000000000000000111010100110000000 
+	Parameter TS8_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS8_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TS8_DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter TS8_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS8_on_dly_cnt bound to: 32'b00000000000000001001110001000000 
+	Parameter TS8_MULT bound to: 6'b011001 
+	Parameter NT_8 bound to: 100000 - type: integer 
+	Parameter LL_8 bound to: 18'sb110110001111000000 
+	Parameter UL_8 bound to: 18'sb001001110001000000 
+	Parameter Nprst_8_MAX bound to: 18'sb001001110001000000 
+	Parameter step_8 bound to: 42'sb000000000000000000000000100111000100000000 
+	Parameter TS9_ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter TS9_PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter TS9_DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter TS9_BS bound to: 32'b00000000000000000000000000000011 
+	Parameter TS9_on_dly_cnt bound to: 32'b00000000000000010001000101110000 
+	Parameter TS9_MULT bound to: 6'b011001 
+	Parameter NT_9 bound to: 100000 - type: integer 
+	Parameter LL_9 bound to: 18'sb110110001111000000 
+	Parameter UL_9 bound to: 18'sb001001110001000000 
+	Parameter Nprst_9_MAX bound to: 18'sb001001110001000000 
+	Parameter step_9 bound to: 42'sb000000000000000000000000001001110001000000 
+INFO: [Synth 8-6157] synthesizing module 'TS_on_dly' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/TS_on_dly.v:9]
+	Parameter N bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'TS_on_dly' (42#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/TS_on_dly.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Cd_Oven_PARAM_ASSIGN' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Cd_Oven_PARAM_ASSIGN.v:9]
+	Parameter FILTER_IO_SIZE bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Cd_Oven_PARAM_ASSIGN' (43#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/Cd_Oven_PARAM_ASSIGN.v:9]
+INFO: [Synth 8-6157] synthesizing module 'tempPID_dg' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID_dg.v:9]
+	Parameter FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter DSCALING bound to: 32'b00000000000000000000000000011001 
+	Parameter multBits bound to: 32'b00000000000000000000000000000111 
+	Parameter ovr bound to: 2 - type: integer 
+	Parameter fb bound to: 2 - type: integer 
+	Parameter lenIO bound to: 22 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'I1BS__parameterized2' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 28 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'I1BS__parameterized2' (43#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS.v:22]
+INFO: [Synth 8-6157] synthesizing module 'P1BS__parameterized1' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 12 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'P1BS__parameterized1' (43#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+INFO: [Synth 8-6157] synthesizing module 'DBS' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS.v:25]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 25 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DBS' (44#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'tempPID_dg' (45#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID_dg.v:9]
+INFO: [Synth 8-6157] synthesizing module 'VDC' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000000000000000000000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6157] synthesizing module 'FastAVG4' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FastAVG4.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'FastAVG4' (46#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/FastAVG4.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'VDC' (47#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'temp_servo_startup_ramp' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/temp_servo_startup_ramp.v:10]
+	Parameter SIGSIZE bound to: 18 - type: integer 
+	Parameter ONATMAX bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'temp_servo_startup_ramp' (48#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/temp_servo_startup_ramp.v:10]
+INFO: [Synth 8-6157] synthesizing module 'tempPID' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID.v:9]
+	Parameter FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter PSCALING bound to: 32'b00000000000000000000000000010001 
+	Parameter DSCALING bound to: 32'b00000000000000000000000000100001 
+	Parameter multBits bound to: 32'b00000000000000000000000000000111 
+	Parameter ovr bound to: 2 - type: integer 
+	Parameter fb bound to: 2 - type: integer 
+	Parameter lenIO bound to: 22 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'P1BS__parameterized2' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 17 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'P1BS__parameterized2' (48#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+INFO: [Synth 8-6157] synthesizing module 'DBS__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS.v:25]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 33 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DBS__parameterized0' (48#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'tempPID' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID.v:9]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000000111010100110000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized0' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'tempPID__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID.v:9]
+	Parameter FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter multBits bound to: 32'b00000000000000000000000000000111 
+	Parameter ovr bound to: 2 - type: integer 
+	Parameter fb bound to: 2 - type: integer 
+	Parameter lenIO bound to: 22 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DBS__parameterized1' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS.v:25]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 22 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DBS__parameterized1' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'tempPID__parameterized0' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID.v:9]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized1' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000001110101001100000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized1' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized2' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000010101111110010000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized2' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized3' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000000100111000100000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized3' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized4' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000001100001101010000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized4' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized5' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000010011100010000000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized5' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized6' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000000010011100010000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized6' (49#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'tempPID_rolloff_bitshift' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID_rolloff_bitshift.v:9]
+	Parameter FILTER_IO_SIZE bound to: 32'b00000000000000000000000000010010 
+	Parameter ISCALING bound to: 32'b00000000000000000000000000011100 
+	Parameter PSCALING bound to: 32'b00000000000000000000000000001100 
+	Parameter DSCALING bound to: 32'b00000000000000000000000000010110 
+	Parameter multBits bound to: 32'b00000000000000000000000000000111 
+	Parameter ovr bound to: 2 - type: integer 
+	Parameter fb bound to: 2 - type: integer 
+	Parameter lenIO bound to: 22 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'I1BS_rolloff' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS_rolloff.v:22]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 28 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'I1BS_rolloff' (50#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/I1BS_rolloff.v:22]
+INFO: [Synth 8-6157] synthesizing module 'P1BS_rolloff' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS_rolloff.v:20]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 12 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'P1BS_rolloff' (51#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS_rolloff.v:20]
+INFO: [Synth 8-6157] synthesizing module 'DBS_rolloff__parameterized0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS_rolloff.v:25]
+	Parameter SIGNAL_SIZE bound to: 22 - type: integer 
+	Parameter FB bound to: 22 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'DBS_rolloff__parameterized0' (51#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/DBS_rolloff.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'tempPID_rolloff_bitshift' (52#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/tempPID_rolloff_bitshift.v:9]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized7' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000001001110001000000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized7' (52#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6157] synthesizing module 'VDC__parameterized8' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+	Parameter BS bound to: 32'b00000000000000000000000000000011 
+	Parameter dly_cnt bound to: 32'b00000000000000010001000101110000 
+	Parameter MULT bound to: 6'b011001 
+INFO: [Synth 8-6155] done synthesizing module 'VDC__parameterized8' (52#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/VDC.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'TempServos' (53#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/TempServos.v:13]
+INFO: [Synth 8-6157] synthesizing module 'FastDACs' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/FastDACs_bb.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'FastDACs' (54#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/FastDACs_bb.v:5]
+INFO: [Synth 8-6157] synthesizing module 'SlowDACs' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/SlowDACs_bb.sv:6]
+	Parameter N0 bound to: 24 - type: integer 
+	Parameter N1 bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SlowDACs' (55#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/SlowDACs_bb.sv:6]
+INFO: [Synth 8-6157] synthesizing module 'RelockLEDs' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/RelockLEDs.v:10]
+	Parameter LOCKED bound to: 2'b00 
+	Parameter UNLOCKED bound to: 2'b01 
+	Parameter UNLOCKED1S bound to: 2'b10 
+	Parameter UNLOCKED1MIN bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'RelockLEDs' (56#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/RelockLEDs.v:10]
+INFO: [Synth 8-6157] synthesizing module 'SR_CTRL' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/SR_CTRL_bb.v:7]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'SR_CTRL' (57#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/blackbox/SR_CTRL_bb.v:7]
+	Parameter SIGNAL_SIZE bound to: 16 - type: integer 
+	Parameter FB bound to: 32 - type: integer 
+	Parameter OVB bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'P1BS__parameterized3' (57#1) [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/P1BS.v:20]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter red bound to: 2'b00 
+	Parameter orange bound to: 2'b01 
+	Parameter lightblue bound to: 2'b10 
+	Parameter FRcor bound to: 8'b11110000 
+	Parameter cntMAX bound to: -1294967296 - type: integer 
+	Parameter red bound to: 2'b00 
+	Parameter blue bound to: 2'b11 
+	Parameter lightblue bound to: 2'b10 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: LVCMOS33 - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 1029.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1029.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tffg676-2
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1029.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'relock_state_reg' in module 'RelockLEDs'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  LOCKED |                              001 |                               00
+                UNLOCKED |                              010 |                               01
+              UNLOCKED1S |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'relock_state_reg' using encoding 'one-hot' in module 'RelockLEDs'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:33 . Memory (MB): peak = 1029.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   63 Bit       Adders := 1     
+	   2 Input   62 Bit       Adders := 2     
+	   3 Input   62 Bit       Adders := 3     
+	   3 Input   58 Bit       Adders := 21    
+	   2 Input   57 Bit       Adders := 42    
+	   3 Input   57 Bit       Adders := 63    
+	   2 Input   56 Bit       Adders := 14    
+	   3 Input   56 Bit       Adders := 8     
+	  10 Input   56 Bit       Adders := 2     
+	   3 Input   55 Bit       Adders := 8     
+	   2 Input   54 Bit       Adders := 16    
+	   3 Input   54 Bit       Adders := 24    
+	   3 Input   51 Bit       Adders := 10    
+	   2 Input   50 Bit       Adders := 20    
+	   3 Input   50 Bit       Adders := 29    
+	   3 Input   49 Bit       Adders := 9     
+	   2 Input   48 Bit       Adders := 25    
+	   3 Input   48 Bit       Adders := 31    
+	  10 Input   48 Bit       Adders := 1     
+	   2 Input   45 Bit       Adders := 46    
+	   3 Input   45 Bit       Adders := 28    
+	  10 Input   45 Bit       Adders := 6     
+	   9 Input   45 Bit       Adders := 1     
+	   2 Input   42 Bit       Adders := 36    
+	   3 Input   42 Bit       Adders := 36    
+	   9 Input   42 Bit       Adders := 9     
+	   3 Input   40 Bit       Adders := 2     
+	   3 Input   39 Bit       Adders := 6     
+	   2 Input   39 Bit       Adders := 4     
+	   3 Input   35 Bit       Adders := 62    
+	   3 Input   34 Bit       Adders := 31    
+	   2 Input   34 Bit       Adders := 16    
+	   2 Input   33 Bit       Adders := 13    
+	   2 Input   32 Bit       Adders := 40    
+	   2 Input   27 Bit       Adders := 29    
+	   3 Input   27 Bit       Adders := 3     
+	   2 Input   26 Bit       Adders := 30    
+	   3 Input   25 Bit       Adders := 42    
+	   2 Input   25 Bit       Adders := 59    
+	   4 Input   24 Bit       Adders := 10    
+	   2 Input   23 Bit       Adders := 20    
+	   3 Input   22 Bit       Adders := 20    
+	   2 Input   22 Bit       Adders := 30    
+	   2 Input   20 Bit       Adders := 9     
+	   2 Input   19 Bit       Adders := 9     
+	   2 Input   18 Bit       Adders := 9     
+	   4 Input   18 Bit       Adders := 10    
+	   2 Input   17 Bit       Adders := 27    
+	   2 Input   16 Bit       Adders := 156   
+	   3 Input   16 Bit       Adders := 4     
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 97    
+	   2 Input   10 Bit       Adders := 179   
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 28    
+	   2 Input    4 Bit       Adders := 35    
+	   2 Input    3 Bit       Adders := 20    
+	   2 Input    2 Bit       Adders := 9     
++---Registers : 
+	              979 Bit    Registers := 2     
+	               63 Bit    Registers := 1     
+	               58 Bit    Registers := 21    
+	               56 Bit    Registers := 10    
+	               55 Bit    Registers := 8     
+	               51 Bit    Registers := 10    
+	               49 Bit    Registers := 9     
+	               48 Bit    Registers := 5     
+	               45 Bit    Registers := 35    
+	               42 Bit    Registers := 45    
+	               40 Bit    Registers := 2     
+	               35 Bit    Registers := 143   
+	               34 Bit    Registers := 18    
+	               32 Bit    Registers := 21    
+	               27 Bit    Registers := 40    
+	               26 Bit    Registers := 9     
+	               25 Bit    Registers := 187   
+	               24 Bit    Registers := 39    
+	               22 Bit    Registers := 90    
+	               20 Bit    Registers := 18    
+	               18 Bit    Registers := 42    
+	               16 Bit    Registers := 323   
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 454   
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 10    
+	                5 Bit    Registers := 10    
+	                4 Bit    Registers := 79    
+	                3 Bit    Registers := 99    
+	                2 Bit    Registers := 183   
+	                1 Bit    Registers := 294   
++---RAMs : 
+	              16K Bit	(1024 X 16 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input  979 Bit        Muxes := 1     
+	   3 Input  979 Bit        Muxes := 1     
+	   4 Input   63 Bit        Muxes := 1     
+	   2 Input   62 Bit        Muxes := 3     
+	   3 Input   62 Bit        Muxes := 2     
+	   4 Input   58 Bit        Muxes := 21    
+	   2 Input   58 Bit        Muxes := 26    
+	   2 Input   57 Bit        Muxes := 63    
+	   3 Input   57 Bit        Muxes := 42    
+	   2 Input   56 Bit        Muxes := 30    
+	   3 Input   56 Bit        Muxes := 14    
+	   4 Input   55 Bit        Muxes := 8     
+	   2 Input   54 Bit        Muxes := 24    
+	   3 Input   54 Bit        Muxes := 16    
+	   4 Input   51 Bit        Muxes := 10    
+	   2 Input   50 Bit        Muxes := 30    
+	   3 Input   50 Bit        Muxes := 19    
+	   2 Input   49 Bit        Muxes := 18    
+	   4 Input   49 Bit        Muxes := 9     
+	   2 Input   48 Bit        Muxes := 44    
+	   3 Input   48 Bit        Muxes := 25    
+	   2 Input   45 Bit        Muxes := 119   
+	   3 Input   45 Bit        Muxes := 45    
+	   2 Input   42 Bit        Muxes := 153   
+	   3 Input   42 Bit        Muxes := 27    
+	   2 Input   40 Bit        Muxes := 4     
+	   4 Input   40 Bit        Muxes := 2     
+	   3 Input   39 Bit        Muxes := 4     
+	   2 Input   39 Bit        Muxes := 6     
+	   6 Input   35 Bit        Muxes := 108   
+	   2 Input   35 Bit        Muxes := 70    
+	   4 Input   35 Bit        Muxes := 8     
+	   2 Input   34 Bit        Muxes := 60    
+	   3 Input   34 Bit        Muxes := 15    
+	   2 Input   32 Bit        Muxes := 2     
+	  25 Input   32 Bit        Muxes := 1     
+	   2 Input   26 Bit        Muxes := 7     
+	   4 Input   26 Bit        Muxes := 4     
+	   2 Input   25 Bit        Muxes := 127   
+	   4 Input   25 Bit        Muxes := 60    
+	   4 Input   24 Bit        Muxes := 7     
+	   2 Input   22 Bit        Muxes := 70    
+	   4 Input   22 Bit        Muxes := 40    
+	   2 Input   20 Bit        Muxes := 108   
+	   3 Input   20 Bit        Muxes := 9     
+	   2 Input   19 Bit        Muxes := 342   
+	   6 Input   19 Bit        Muxes := 54    
+	   2 Input   18 Bit        Muxes := 23    
+	   4 Input   18 Bit        Muxes := 3     
+	   2 Input   17 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 81    
+	  25 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 37    
+	   6 Input   12 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 7     
+	   2 Input    8 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4     
+	  10 Input    5 Bit        Muxes := 9     
+	   2 Input    4 Bit        Muxes := 57    
+	   4 Input    4 Bit        Muxes := 3     
+	   3 Input    3 Bit        Muxes := 10    
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 37    
+	   2 Input    2 Bit        Muxes := 2     
+	  10 Input    2 Bit        Muxes := 9     
+	   3 Input    2 Bit        Muxes := 11    
+	   2 Input    1 Bit        Muxes := 438   
+	   6 Input    1 Bit        Muxes := 6     
+	   7 Input    1 Bit        Muxes := 109   
+	  25 Input    1 Bit        Muxes := 8     
+	   4 Input    1 Bit        Muxes := 99    
+	   3 Input    1 Bit        Muxes := 126   
+	  10 Input    1 Bit        Muxes := 9     
+	   5 Input    1 Bit        Muxes := 9     
+	  16 Input    1 Bit        Muxes := 2     
+	  22 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'P1BS_INST/gP_reg[9]' (FD) to 'P1BS_INST/gP_reg[7]'
+INFO: [Synth 8-3886] merging instance 'P1BS_INST/gP_reg[8]' (FD) to 'P1BS_INST/gP_reg[7]'
+INFO: [Synth 8-3886] merging instance 'P1BS_INST/gF_reg[9]' (FD) to 'P1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'P1BS_INST/gF_reg[8]' (FD) to 'P1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/gF_reg[9]' (FD) to 'DBS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/gF_reg[8]' (FD) to 'DBS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/gD_reg[9]' (FD) to 'DBS_INST/gD_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/gD_reg[8]' (FD) to 'DBS_INST/gD_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/gG_reg[9]' (FD) to 'DBS_INST/gG_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/gG_reg[8]' (FD) to 'DBS_INST/gG_reg[7]'
+INFO: [Synth 8-3886] merging instance 'P1BS_INST/sP_reg[9]' (FD) to 'P1BS_INST/sP_reg[8]'
+INFO: [Synth 8-3886] merging instance 'P1BS_INST/sP_reg[8]' (FD) to 'P1BS_INST/sP_reg[7]'
+INFO: [Synth 8-3886] merging instance 'I1BS_INST/gI_reg[9]' (FD) to 'I1BS_INST/gI_reg[7]'
+INFO: [Synth 8-3886] merging instance 'I1BS_INST/gI_reg[8]' (FD) to 'I1BS_INST/gI_reg[7]'
+INFO: [Synth 8-3886] merging instance 'I1BS_INST/gF_reg[9]' (FD) to 'I1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'I1BS_INST/gF_reg[8]' (FD) to 'I1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/sD_reg[9]' (FD) to 'DBS_INST/sD_reg[8]'
+INFO: [Synth 8-3886] merging instance 'DBS_INST/sD_reg[8]' (FD) to 'DBS_INST/sD_reg[7]'
+INFO: [Synth 8-3886] merging instance 's_out0_0_reg[24]' (FD) to 's_out0_0_reg[25]'
+INFO: [Synth 8-3886] merging instance 'I1BS_INST/sI_reg[9]' (FD) to 'I1BS_INST/sI_reg[8]'
+INFO: [Synth 8-3886] merging instance 'I1BS_INST/sI_reg[8]' (FD) to 'I1BS_INST/sI_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/I1BS_INST/gI_reg[9]' (FD) to 'CavPID4_BBO361542/I1BS_INST/gI_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/I1BS_INST/gI_reg[8]' (FD) to 'CavPID4_BBO361542/I1BS_INST/gI_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/I1BS_INST/gF_reg[9]' (FD) to 'CavPID4_BBO361542/I1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/I1BS_INST/gF_reg[8]' (FD) to 'CavPID4_BBO361542/I1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/P1BS_INST/gP_reg[9]' (FD) to 'CavPID4_BBO361542/P1BS_INST/gP_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/P1BS_INST/gP_reg[8]' (FD) to 'CavPID4_BBO361542/P1BS_INST/gP_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/P1BS_INST/gF_reg[9]' (FD) to 'CavPID4_BBO361542/P1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/P1BS_INST/gF_reg[8]' (FD) to 'CavPID4_BBO361542/P1BS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/I1BS_INST/sI_reg[9]' (FD) to 'CavPID4_BBO361542/I1BS_INST/sI_reg[8]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/I1BS_INST/sI_reg[8]' (FD) to 'CavPID4_BBO361542/I1BS_INST/sI_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/gF_reg[9]' (FD) to 'CavPID4_BBO361542/DBS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/gF_reg[8]' (FD) to 'CavPID4_BBO361542/DBS_INST/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/gD_reg[9]' (FD) to 'CavPID4_BBO361542/DBS_INST/gD_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/gD_reg[8]' (FD) to 'CavPID4_BBO361542/DBS_INST/gD_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/gG_reg[9]' (FD) to 'CavPID4_BBO361542/DBS_INST/gG_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/gG_reg[8]' (FD) to 'CavPID4_BBO361542/DBS_INST/gG_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/P1BS_INST/sP_reg[9]' (FD) to 'CavPID4_BBO361542/P1BS_INST/sP_reg[8]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/P1BS_INST/sP_reg[8]' (FD) to 'CavPID4_BBO361542/P1BS_INST/sP_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/sD_reg[9]' (FD) to 'CavPID4_BBO361542/DBS_INST/sD_reg[8]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/DBS_INST/sD_reg[8]' (FD) to 'CavPID4_BBO361542/DBS_INST/sD_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CavPID4_BBO361542/s_out0_0_reg[24]' (FD) to 'CavPID4_BBO361542/s_out0_0_reg[25]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_LBOFF/\bF_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_LBOFF/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_BBO542FF/\bF_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO542FF/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\servo1out0_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\BBO542ff1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_LBOFF/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_LBOFF/\sP_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO542FF/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_BBO542FF/\sP_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\BBO542ff1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_LBOFF/\x1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO542FF/\x0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO542FF/\x0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\BBO542ff1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\BBO542ff1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO542FF/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO542FF/\x0_reg[1] )
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[9]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[8]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[7]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[6]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[5]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[4]' (FD) to 'P1BS_BBO820offset/gF_reg[9]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[3]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[2]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[1]' (FD) to 'P1BS_BBO820offset/gF_reg[9]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gP_reg[0]' (FD) to 'P1BS_BBO820offset/gF_reg[9]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[9]' (FD) to 'P1BS_BBO820offset/gF_reg[8]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[8]' (FD) to 'P1BS_BBO820offset/gF_reg[7]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[7]' (FD) to 'P1BS_BBO820offset/gF_reg[6]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[0]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[1]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[2]' (FD) to 'P1BS_BBO820offset/gF_reg[6]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[3]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[4]' (FD) to 'P1BS_BBO820offset/gF_reg[6]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/gF_reg[5]' (FD) to 'P1BS_BBO820offset/gF_reg[6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_BBO820offset/\gF_reg[6] )
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[9]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[8]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[7]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[6]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[5]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[4]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[3]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[2]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[1]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gP_reg[0]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[9]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[8]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[7]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[0]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[1]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[2]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[3]' (FD) to 'P1BS_BBO820FF/bF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[4]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[5]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820FF/gF_reg[6]' (FD) to 'P1BS_BBO820FF/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/bP_reg[1]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/bP_reg[0]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/sP_reg[9]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/sP_reg[8]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/sP_reg[7]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/sP_reg[6]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x0_reg[0]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x1_reg[0]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x0_reg[1]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x1_reg[1]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x0_reg[2]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x1_reg[2]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x0_reg[3]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x1_reg[3]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x0_reg[4]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x1_reg[4]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x0_reg[5]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x1_reg[5]' (FD) to 'P1BS_BBO820offset/sF_reg[0]'
+INFO: [Synth 8-3886] merging instance 'P1BS_BBO820offset/x0_reg[6]' (FD) to 'P1BS_BBO820offset/bF_reg[1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO820offset/\bF_reg[0] )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_BBO820FF/\bF_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO820FF/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\servo6out0_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO820offset/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_BBO820offset/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_BBO820FF/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (P1BS_BBO820FF/\sP_reg[0] )
+DSP Report: Generating DSP NH2_reg, operation Mode is: (A''*B)'.
+DSP Report: register NH0_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH1_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH2_reg is absorbed into DSP NH2_reg.
+DSP Report: operator NH20 is absorbed into DSP NH2_reg.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DBS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DBS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x1_reg[0] )
+DSP Report: Generating DSP NH2_reg, operation Mode is: (A''*B)'.
+DSP Report: register NH0_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH1_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH2_reg is absorbed into DSP NH2_reg.
+DSP Report: operator NH20 is absorbed into DSP NH2_reg.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DBS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DBS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (I1BS_INST/\x1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (P1BS_INST/\x1_reg[0] )
+DSP Report: Generating DSP NH2_reg, operation Mode is: (A''*B)'.
+DSP Report: register NH0_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH1_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH2_reg is absorbed into DSP NH2_reg.
+DSP Report: operator NH20 is absorbed into DSP NH2_reg.
+WARNING: [Synth 8-7129] Port err[16] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[15] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[14] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[13] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[12] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[11] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[10] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[9] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[8] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[7] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[6] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[5] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[4] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[3] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[2] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[1] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[0] in module temp_servo_startup_ramp__4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[16] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[15] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[14] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[13] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[12] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[11] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[10] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[9] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[8] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[7] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[6] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[5] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[4] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[3] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[2] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[1] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[0] in module temp_servo_startup_ramp__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[16] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[15] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[14] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[13] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[12] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[11] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[10] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[9] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[8] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[7] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[6] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[5] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[4] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[3] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[2] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[1] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[0] in module temp_servo_startup_ramp__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[16] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[15] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[14] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[13] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[12] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[11] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[10] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[9] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[8] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[7] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[6] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[5] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[4] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[3] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[2] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[1] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[0] in module temp_servo_startup_ramp__1 is either unconnected or has no load
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/DBS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/P1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/I1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/P1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/I1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/DBS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/P1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/I1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/P1BS_INST/\x1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_Cd/I1BS_INST/\x1_reg[0] )
+DSP Report: Generating DSP NH2_reg, operation Mode is: (A''*B)'.
+DSP Report: register NH0_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH1_reg is absorbed into DSP NH2_reg.
+DSP Report: register NH2_reg is absorbed into DSP NH2_reg.
+DSP Report: operator NH20 is absorbed into DSP NH2_reg.
+WARNING: [Synth 8-7129] Port err[16] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[15] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[14] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[13] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[12] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[11] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[10] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[9] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[8] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[7] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[6] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[5] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[4] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[3] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[2] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[1] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[0] in module temp_servo_startup_ramp is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[16] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[15] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[14] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[13] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[12] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[11] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[10] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[9] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[8] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[7] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[6] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[5] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[4] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[3] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port err[2] in module temp_servo_startup_ramp__8 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/I1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/P1BS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/DBS_INST/\x0_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/I1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/P1BS_INST/\x1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/I1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/P1BS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/DBS_INST/\x0_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/I1BS_INST/\x1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (tempPID_8/P1BS_INST/\x1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP5/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP6/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP7/\gF_reg[6] )
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP8/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP5/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP6/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP7/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP8/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP5/\sP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP5/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP6/\sP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP6/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP7/\sP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP7/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP8/\sP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP8/\gF_reg[6] )
+INFO: [Synth 8-4652] Swapped enable and write-enable on 1 RAM instances of RAM fmMOTmem_inst/ram_dual_0/mem_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 1 RAM instances of RAM fmMOTmem_inst/ram_dual_1/mem_reg to conserve power
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP3/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP2/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP1/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP3/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP2/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP1/\bF_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP3/\sP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP3/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP2/\sP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP2/\gF_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (LP1/\sP_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (LP1/\gF_reg[6] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:03:29 . Memory (MB): peak = 1029.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
++------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|top__GCB2   | fmMOTmem_inst/ram_dual_0/mem_reg | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|top__GCB2   | fmMOTmem_inst/ram_dual_1/mem_reg | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping	Report (see note below)
++-------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name              | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|tempPID                  | (A''*B)'    | 22     | 7      | -      | -      | 29     | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|tempPID                  | (A''*B)'    | 22     | 7      | -      | -      | 29     | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|tempPID_dg               | (A''*B)'    | 22     | 7      | -      | -      | 29     | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|tempPID_rolloff_bitshift | (A''*B)'    | 22     | 7      | -      | -      | 29     | 2    | 0    | -    | -    | -     | 1    | 0    | 
++-------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:31 ; elapsed = 00:03:42 . Memory (MB): peak = 1029.031 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|top__GCB2   | fmMOTmem_inst/ram_dual_0/mem_reg | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|top__GCB2   | fmMOTmem_inst/ram_dual_1/mem_reg | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++------------+----------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TempServos_inst/tempPID_Cd/DBS_INST/x2D_reg[44] )
+INFO: [Synth 8-7052] The timing for the instance i_2/fmMOTmem_inst/ram_dual_0/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance i_2/fmMOTmem_inst/ram_dual_1/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:42 ; elapsed = 00:04:02 . Memory (MB): peak = 1039.914 ; gain = 10.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance fmMOTmem_inst/ram_dual_0/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance fmMOTmem_inst/ram_dual_1/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin in0_inferred:in0 to constant 0
+WARNING: [Synth 8-3295] tying undriven pin in1_inferred:in0 to constant 0
+CRITICAL WARNING: [Synth 8-4442] BlackBox module SlowADCs_inst has unconnected pin sADC_SCKO0_in
+CRITICAL WARNING: [Synth 8-4442] BlackBox module SlowADCs_inst has unconnected pin sADC_SCKO1_in
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:46 ; elapsed = 00:04:15 . Memory (MB): peak = 1041.637 ; gain = 12.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:46 ; elapsed = 00:04:15 . Memory (MB): peak = 1041.637 ; gain = 12.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:47 ; elapsed = 00:04:17 . Memory (MB): peak = 1041.637 ; gain = 12.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:47 ; elapsed = 00:04:17 . Memory (MB): peak = 1041.637 ; gain = 12.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:49 ; elapsed = 00:04:19 . Memory (MB): peak = 1041.641 ; gain = 12.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:49 ; elapsed = 00:04:19 . Memory (MB): peak = 1041.641 ; gain = 12.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |SlowADCs      |         1|
+|2     |FM_MOT        |         1|
+|3     |FastDACs      |         1|
+|4     |SlowDACs      |         1|
+|5     |display       |         1|
+|6     |SR_CTRL       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |FM_MOT      |     1|
+|2     |FastDACs    |     1|
+|3     |SR_CTRL     |     1|
+|4     |SlowADCs    |     1|
+|5     |SlowDACs    |     1|
+|6     |display     |     1|
+|7     |BUFG        |     9|
+|8     |BUFGCE      |     1|
+|9     |CARRY4      |  4659|
+|10    |DSP48E1     |     8|
+|11    |IDELAYCTRL  |     2|
+|12    |IDELAYE2    |    25|
+|13    |ISERDESE2   |    25|
+|14    |LUT1        |  3250|
+|15    |LUT2        |  5225|
+|16    |LUT3        |  7966|
+|17    |LUT4        |  4706|
+|18    |LUT5        |  7384|
+|19    |LUT6        |  6822|
+|20    |MMCME2_BASE |     2|
+|21    |ODDR        |     3|
+|22    |RAMB18E1    |     2|
+|23    |FDRE        | 12195|
+|24    |FDSE        |   110|
+|25    |IBUF        |    10|
+|26    |IBUFDS      |    25|
+|27    |OBUF        |   155|
+|28    |OBUFDS      |     1|
+|29    |OBUFT       |     4|
++------+------------+------+
+
+Report Instance Areas: 
++------+--------------------------------+-----------------------------+------+
+|      |Instance                        |Module                       |Cells |
++------+--------------------------------+-----------------------------+------+
+|1     |top                             |                             | 53154|
+|2     |  CavServos_inst                |CavServos                    |   141|
+|3     |    AutoLock0                   |AutoLock                     |    20|
+|4     |    AutoLock1                   |AutoLock_80                  |    20|
+|5     |    AutoLock2                   |AutoLock__parameterized0     |    20|
+|6     |    AutoLock3                   |AutoLock__parameterized0_81  |    20|
+|7     |    AutoLock4                   |AutoLock_82                  |    20|
+|8     |    AutoLock5                   |AutoLock__parameterized1     |    21|
+|9     |    AutoLock6                   |AutoLock_83                  |    20|
+|10    |  FM_MOT_PARAM_ASSIGN_inst      |FM_MOT_PARAM_ASSIGN          |   866|
+|11    |  FRmon_inst                    |FRmon                        |   102|
+|12    |  FastADCs_SPI_inst             |FastADCs_SPI                 |   288|
+|13    |    LTC2194_SPI_inst            |SPI                          |   100|
+|14    |  FastADCs_inst                 |FastADCsDDR                  |  1174|
+|15    |    fADC0                       |LTC2194DDR                   |   234|
+|16    |      BitslipF                  |BitslipDynamic_75            |    14|
+|17    |      BitslipStatic00           |BitslipStatic_76             |    48|
+|18    |      BitslipStatic01           |BitslipStatic_77             |    52|
+|19    |      BitslipStatic10           |BitslipStatic_78             |    52|
+|20    |      BitslipStatic11           |BitslipStatic_79             |    53|
+|21    |    fADC1                       |LTC2194DDR__parameterized0   |   234|
+|22    |      BitslipF                  |BitslipDynamic_70            |    14|
+|23    |      BitslipStatic00           |BitslipStatic_71             |    48|
+|24    |      BitslipStatic01           |BitslipStatic_72             |    52|
+|25    |      BitslipStatic10           |BitslipStatic_73             |    52|
+|26    |      BitslipStatic11           |BitslipStatic_74             |    53|
+|27    |    fADC2                       |LTC2194DDR__parameterized1   |   234|
+|28    |      BitslipF                  |BitslipDynamic_65            |    14|
+|29    |      BitslipStatic00           |BitslipStatic_66             |    48|
+|30    |      BitslipStatic01           |BitslipStatic_67             |    52|
+|31    |      BitslipStatic10           |BitslipStatic_68             |    52|
+|32    |      BitslipStatic11           |BitslipStatic_69             |    53|
+|33    |    fADC3                       |LTC2194DDR__parameterized2   |   234|
+|34    |      BitslipF                  |BitslipDynamic_60            |    14|
+|35    |      BitslipStatic00           |BitslipStatic_61             |    48|
+|36    |      BitslipStatic01           |BitslipStatic_62             |    52|
+|37    |      BitslipStatic10           |BitslipStatic_63             |    52|
+|38    |      BitslipStatic11           |BitslipStatic_64             |    53|
+|39    |    fADC4                       |LTC2194DDR__parameterized3   |   234|
+|40    |      BitslipF                  |BitslipDynamic               |    14|
+|41    |      BitslipStatic00           |BitslipStatic                |    48|
+|42    |      BitslipStatic01           |BitslipStatic_57             |    52|
+|43    |      BitslipStatic10           |BitslipStatic_58             |    52|
+|44    |      BitslipStatic11           |BitslipStatic_59             |    53|
+|45    |  GlobalClocks_inst0            |GlobalClocks                 |     1|
+|46    |  GlobalClocks_inst1            |GlobalClocks__parameterized0 |     1|
+|47    |  LP0                           |P1BS__parameterized3         |   624|
+|48    |  LP1                           |P1BS__parameterized3_0       |   624|
+|49    |  LP2                           |P1BS__parameterized3_1       |   624|
+|50    |  LP3                           |P1BS__parameterized3_2       |   624|
+|51    |  LP4                           |P1BS__parameterized3_3       |   625|
+|52    |  LP5                           |P1BS__parameterized3_4       |   659|
+|53    |  LP6                           |P1BS__parameterized3_5       |   624|
+|54    |  LP7                           |P1BS__parameterized3_6       |   624|
+|55    |  LP8                           |P1BS__parameterized3_7       |   659|
+|56    |  RelockLEDs_0                  |RelockLEDs                   |    61|
+|57    |  RelockLEDs_1                  |RelockLEDs_8                 |    61|
+|58    |  RelockLEDs_2                  |RelockLEDs_9                 |    61|
+|59    |  RelockLEDs_3                  |RelockLEDs_10                |    61|
+|60    |  RelockLEDs_4                  |RelockLEDs_11                |    61|
+|61    |  RelockLEDs_5                  |RelockLEDs_12                |    61|
+|62    |  RelockLEDs_6                  |RelockLEDs_13                |    61|
+|63    |  SR_B_CTRL0                    |SRB_CTRL                     |    22|
+|64    |  Sig1Dly_PD_INST               |Sig1Dly                      |    43|
+|65    |  Sig1Dly_PD_INST1              |Sig1Dly_14                   |    43|
+|66    |  SignFlip_inst                 |SignFlip                     |  1280|
+|67    |  TempServos_inst               |TempServos                   | 36130|
+|68    |    Cd_Oven_PARAM_ASSIGN_inst   |Cd_Oven_PARAM_ASSIGN         |   235|
+|69    |    TS_on_dly_inst              |TS_on_dly                    |   345|
+|70    |    VDC_INST_2                  |VDC__parameterized1          |   313|
+|71    |      FastAVG4_inst             |FastAVG4_56                  |    85|
+|72    |    VDC_INST_3                  |VDC__parameterized2          |   310|
+|73    |      FastAVG4_inst             |FastAVG4_55                  |    78|
+|74    |    VDC_INST_4                  |VDC__parameterized3          |   310|
+|75    |      FastAVG4_inst             |FastAVG4_54                  |    78|
+|76    |    VDC_INST_6                  |VDC__parameterized5          |   280|
+|77    |      FastAVG4_inst             |FastAVG4_53                  |    80|
+|78    |    VDC_INST_7                  |VDC__parameterized6          |   280|
+|79    |      FastAVG4_inst             |FastAVG4_52                  |    80|
+|80    |    VDC_INST_8                  |VDC__parameterized7          |   280|
+|81    |      FastAVG4_inst             |FastAVG4_51                  |    80|
+|82    |    VDC_INST_Cd                 |VDC                          |   248|
+|83    |      FastAVG4_inst             |FastAVG4_50                  |    78|
+|84    |    VDC_INST_REF                |VDC__parameterized0          |   311|
+|85    |      FastAVG4_inst             |FastAVG4                     |    78|
+|86    |    tempPID_2                   |tempPID__parameterized0      |  3083|
+|87    |      DBS_INST                  |DBS__parameterized1_47       |  1100|
+|88    |      I1BS_INST                 |I1BS__parameterized2_48      |   758|
+|89    |      P1BS_INST                 |P1BS__parameterized1_49      |   519|
+|90    |    tempPID_3                   |tempPID__parameterized0_25   |  3099|
+|91    |      DBS_INST                  |DBS__parameterized1_44       |  1100|
+|92    |      I1BS_INST                 |I1BS__parameterized2_45      |   758|
+|93    |      P1BS_INST                 |P1BS__parameterized1_46      |   519|
+|94    |    tempPID_4                   |tempPID__parameterized0_26   |  3099|
+|95    |      DBS_INST                  |DBS__parameterized1_41       |  1100|
+|96    |      I1BS_INST                 |I1BS__parameterized2_42      |   758|
+|97    |      P1BS_INST                 |P1BS__parameterized1_43      |   519|
+|98    |    tempPID_6                   |tempPID                      |  6324|
+|99    |      DBS_INST                  |DBS__parameterized0_38       |  2692|
+|100   |      I1BS_INST                 |I1BS__parameterized2_39      |  1429|
+|101   |      P1BS_INST                 |P1BS__parameterized2_40      |  1033|
+|102   |    tempPID_7                   |tempPID__parameterized0_27   |  4033|
+|103   |      DBS_INST                  |DBS__parameterized1          |  1410|
+|104   |      I1BS_INST                 |I1BS__parameterized2_36      |  1088|
+|105   |      P1BS_INST                 |P1BS__parameterized1_37      |   642|
+|106   |    tempPID_8                   |tempPID_rolloff_bitshift     |  2702|
+|107   |      DBS_INST                  |DBS_rolloff__parameterized0  |  1242|
+|108   |      I1BS_INST                 |I1BS_rolloff                 |   749|
+|109   |      P1BS_INST                 |P1BS_rolloff                 |   519|
+|110   |    tempPID_Cd                  |tempPID_dg                   |  3871|
+|111   |      DBS_INST                  |DBS                          |  1164|
+|112   |      I1BS_INST                 |I1BS__parameterized2_35      |  1594|
+|113   |      P1BS_INST                 |P1BS__parameterized1         |   955|
+|114   |    tempPID_REF                 |tempPID_28                   |  6308|
+|115   |      DBS_INST                  |DBS__parameterized0          |  2680|
+|116   |      I1BS_INST                 |I1BS__parameterized2         |  1427|
+|117   |      P1BS_INST                 |P1BS__parameterized2         |  1038|
+|118   |    temp_servo_startup_ramp_2   |temp_servo_startup_ramp      |    94|
+|119   |    temp_servo_startup_ramp_3   |temp_servo_startup_ramp_29   |    94|
+|120   |    temp_servo_startup_ramp_4   |temp_servo_startup_ramp_30   |    94|
+|121   |    temp_servo_startup_ramp_6   |temp_servo_startup_ramp_31   |    81|
+|122   |    temp_servo_startup_ramp_7   |temp_servo_startup_ramp_32   |    86|
+|123   |    temp_servo_startup_ramp_8   |temp_servo_startup_ramp_33   |   103|
+|124   |    temp_servo_startup_ramp_REF |temp_servo_startup_ramp_34   |    94|
+|125   |  err2clrst_INST_0              |err2clrst                    |    10|
+|126   |  err2clrst_INST_1              |err2clrst_15                 |    10|
+|127   |  err2clrst_INST_2              |err2clrst_16                 |    10|
+|128   |  err2clrst_INST_3              |err2clrst_17                 |    10|
+|129   |  err2clrst_INST_4              |err2clrst_18                 |    10|
+|130   |  err2clrst_INST_5              |err2clrst_19                 |    10|
+|131   |  err2clrst_INST_6              |err2clrst_20                 |    10|
+|132   |  err2clrst_INST_7              |err2clrst_21                 |    10|
+|133   |  err2clrst_INST_8              |err2clrst_22                 |    10|
+|134   |  fmMOTmem_inst                 |fmMOTmem                     |    67|
+|135   |    ram_dual_0                  |ram_dual                     |    11|
+|136   |    ram_dual_1                  |ram_dual_24                  |    11|
+|137   |  gated_clk_125kHz              |gated_clk                    |    26|
+|138   |  rst_disp                      |reset                        |    53|
+|139   |  serial0                       |serialLine                   |  2345|
+|140   |  serialHSmon_inst              |serialHSmon                  |     4|
+|141   |  startup_reset                 |reset_23                     |    52|
++------+--------------------------------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:49 ; elapsed = 00:04:19 . Memory (MB): peak = 1041.641 ; gain = 12.609
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2 critical warnings and 140 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:49 ; elapsed = 00:04:20 . Memory (MB): peak = 1041.641 ; gain = 12.609
+Synthesis Optimization Complete : Time (s): cpu = 00:01:49 ; elapsed = 00:04:20 . Memory (MB): peak = 1041.641 ; gain = 12.609
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.528 . Memory (MB): peak = 1053.738 ; gain = 0.000
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'gated_clk_125kHz/BUFGCE_inst' of type 'BUFGCE' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-17] Analyzing 4751 Unisim elements for replacement
+WARNING: [Netlist 29-345] The value of SIM_DEVICE on instance 'gated_clk_125kHz/BUFGCE_inst' of type 'BUFGCTRL' is 'ULTRASCALE'; it is being changed to match the current FPGA architecture, '7SERIES'. For functional simulation to match hardware behavior, the value of SIM_DEVICE should be changed in the source netlist. 
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'FM_MOT' instantiated as 'FM_MOT0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ooc/top.sv:1292]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'FastDACs' instantiated as 'fDAC_inst' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ooc/top.sv:1379]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SR_CTRL' instantiated as 'SR_CTRL0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ooc/top.sv:1439]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SlowADCs' instantiated as 'SlowADCs_inst' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ooc/top.sv:1142]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'SlowDACs' instantiated as 'sDACinst' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ooc/top.sv:1417]
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'display' instantiated as 'disp0' [C:/Users/danie/OneDrive/Desktop/MFCS_HD/Sources/hdl/ooc/top.sv:1492]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1171.980 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  BUFGCE => BUFGCTRL: 1 instance 
+  MMCME2_BASE => MMCME2_ADV: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+441 Infos, 106 Warnings, 9 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:58 ; elapsed = 00:04:37 . Memory (MB): peak = 1171.980 ; gain = 142.949
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads

@@ -1,0 +1,2 @@
+verilog work "hdl/FM_MOT.sv"
+verilog work "hdl/lockIn.v"

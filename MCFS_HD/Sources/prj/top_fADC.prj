@@ -1,0 +1,16 @@
+verilog work "hdl/FastADCs_SPI.v"
+verilog work "hdl/SPI.v"
+verilog work "hdl/gated_clk.v"
+verilog work "hdl/GlobalClocks.v"
+verilog work "hdl/reset.v"
+verilog work "hdl/SRB_CTRL.v"
+verilog work "hdl/top_fADC.sv"
+
+verilog work "hdl/BitslipDynamic.v"
+verilog work "hdl/BitslipStatic.v"
+verilog work "hdl/FastADCsDDR.v"
+verilog work "hdl/LTC2194DDR.v"
+
+verilog work "hdl/Sweep.v"
+
+verilog work "hdl/blackbox/FastDACs_bb.v"

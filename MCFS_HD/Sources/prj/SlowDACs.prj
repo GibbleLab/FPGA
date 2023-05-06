@@ -1,0 +1,3 @@
+verilog work "hdl/SlowDACs.sv"
+verilog work "hdl/LTC2666x2.sv"
+verilog work "hdl/SPI_LTC2666x2.v"

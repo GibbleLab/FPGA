@@ -1,0 +1,3 @@
+verilog work "hdl/SlowADCs.sv"
+verilog work "hdl/SPI_LTC2335_16_seq_x2.v"
+verilog work "hdl/LTC2335_16.sv"
