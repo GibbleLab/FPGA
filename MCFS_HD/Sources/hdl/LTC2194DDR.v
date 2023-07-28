@@ -65,7 +65,8 @@ wire EN;
 assign EN = EN00 && EN01 && EN10 && EN11;
 // BitslipDynamic bit-slips all data, including the frame FR_p/n so that it is 11110000.
 wire FR_test_out;
-BitslipDynamic#(8'b11110000)BitslipF(clk100, EN, FR_out, FR_test_out, BSiF);
+// assign BSiF = 0; //Set BSiF to 0 when dynamic bit-slips are inhibited for fast ADC testing
+BitslipDynamic#(8'b11110000)BitslipF(clk100, EN, FR_out, FR_test_out, BSiF); //Comment out to inhibit dynamic bit-slips for fast ADC testing
 // OR the bit-slip inputs for the frame and each data pair.
 wire [N_LVDS-1:0] BS;
 assign BS = {BSiF, BSiF || BSi11, BSiF || BSi10, BSiF || BSi01, BSiF || BSi00};
