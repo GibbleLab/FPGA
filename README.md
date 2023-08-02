@@ -42,7 +42,8 @@ The supporting files for this many-channel FPGA system (MCFS) are:
 
 ## Additional Information
 
-A preprint describing the IIR PID filters, variable duty cycle temperature servos, and more about the system is available on request. 
+A paper describing the IIR PID filters, enhanced Hänsch-Couillaud laser locks with slow offset corrections, variable duty cycle temperature servos, and more information about the system is available at:
+"[A many-channel FPGA control system](https://doi.org/10.1063/5.0157330)," Daniel T. Schussheim & Kurt Gibble, Rev Sci Instrum <b>94</b>, 085101 (2023); [arXiv:2307.16008](https://arxiv.org/abs/2307.16008).
 
 ## Acknowledgements
 
